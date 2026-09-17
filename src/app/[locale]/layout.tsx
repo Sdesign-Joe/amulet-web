@@ -54,9 +54,6 @@ export async function generateMetadata({
       locale: locale === "hu" ? "hu_HU" : "ro_RO",
       images: [`${SITE_URL}/images/logo.png`],
     },
-    icons: {
-      icon: "/images/logo.png",
-    },
     robots: {
       index: true,
       follow: true,
