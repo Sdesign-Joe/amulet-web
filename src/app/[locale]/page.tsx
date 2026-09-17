@@ -14,12 +14,15 @@ export default function Home() {
       <section className="relative overflow-hidden bg-neutral-50">
         <video
           className="absolute inset-0 h-full w-full object-cover opacity-20"
-          src="/videos/amulet-alkaline-water.mp4"
+          poster="/images/hero-poster.jpg"
           autoPlay
           muted
           loop
           playsInline
-        />
+        >
+          <source src="/videos/amulet-hero-family.webm" type="video/webm" />
+          <source src="/videos/amulet-hero-family.mp4" type="video/mp4" />
+        </video>
         <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-20 text-center sm:py-28">
           <Image
             src="/images/logo.png"
