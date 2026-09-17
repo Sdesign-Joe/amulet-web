@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import ProductCard from "@/components/ProductCard";
+import ReorderBanner from "@/components/ReorderBanner";
 import { products } from "@/lib/products";
 import { buildPageMetadata } from "@/lib/pageMetadata";
 import { SITE_URL } from "@/lib/site";
@@ -40,7 +41,10 @@ export default function ProductsPage() {
       <h1 className="text-center text-3xl font-semibold text-brand-navy sm:text-4xl">
         {t("title")}
       </h1>
-      <div className="mt-12 grid gap-8 sm:grid-cols-2">
+      <div className="mt-8">
+        <ReorderBanner />
+      </div>
+      <div className="grid gap-8 sm:grid-cols-2">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

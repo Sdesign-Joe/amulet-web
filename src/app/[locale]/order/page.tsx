@@ -12,6 +12,7 @@ import {
   getVariantLabelKey,
 } from "@/lib/products";
 import type { CartLineKey } from "@/lib/products";
+import { saveLastOrder } from "@/lib/lastOrder";
 
 const CUSTOMER_INFO_KEY = "amulet-customer-info";
 
@@ -123,6 +124,7 @@ export default function OrderPage() {
       } catch {
         // ignore storage failures (e.g. private browsing)
       }
+      saveLastOrder(items);
 
       setSubmitted(true);
       clear();

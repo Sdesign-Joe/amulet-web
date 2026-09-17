@@ -26,7 +26,26 @@
     "usp4Title": "Testată și certificată",
     "usp4Text": "Testată de laboratorul Aqua Labor, certificată RO/UE.",
     "productsTitle": "Alege formatul potrivit",
-    "productsCta": "Vezi toate produsele"
+    "productsCta": "Vezi toate produsele",
+    "whyUsTitle": "De ce să alegi AMULET?",
+    "whyUs1Title": "Livrare la ușă",
+    "whyUs1Text": "Nu mai cari sticle grele de la magazin — îți aducem apa direct acasă sau la birou.",
+    "whyUs2Title": "Compoziție verificată",
+    "whyUs2Text": "Nu doar promisiuni — vezi analiza de laborator completă, cu cifre reale.",
+    "whyUs3Title": "Plată la livrare",
+    "whyUs3Text": "Fără riscuri online — plătești doar când primești comanda, în numerar.",
+    "whyUs4Title": "Afacere locală, de peste 10 ani",
+    "whyUs4Text": "Cunoaștem zona și clienții noștri — nu suntem un depozit anonim.",
+    "howToOrderTitle": "Cum comanzi?",
+    "step1Title": "Alege produsul",
+    "step1Text": "Sticle de 1,5L sau bidon de 19L, după cantitate sau valoare dorită.",
+    "step2Title": "Completează datele",
+    "step2Text": "Nume, telefon și adresa de livrare — durează mai puțin de un minut.",
+    "step3Title": "Plătești la livrare",
+    "step3Text": "Confirmăm comanda telefonic și îți aducem apa la ușă.",
+    "b2bTitle": "Pentru birouri, școli și săli de sport",
+    "b2bText": "Oferim livrări recurente și cantități mai mari pentru firme, instituții și spații publice. Contactează-ne pentru un program de livrare personalizat.",
+    "b2bCta": "Solicită o ofertă"
   },
   "products": {
     "meta": {
@@ -72,7 +91,9 @@
     "total": "Total",
     "freeDeliveryReached": "Livrare gratuită la domiciliu inclusă!",
     "freeDeliveryProgress": "Mai adaugă produse de {amount} RON pentru livrare gratuită.",
-    "checkoutCta": "Continuă comanda"
+    "checkoutCta": "Continuă comanda",
+    "reorderTitle": "Comandă din nou ce ai luat data trecută?",
+    "reorderCta": "Adaugă în coș"
   },
   "order": {
     "title": "Finalizează comanda",

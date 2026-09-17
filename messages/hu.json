@@ -26,7 +26,26 @@
     "usp4Title": "Bevizsgált, tanúsított",
     "usp4Text": "Az Aqua Labor vizsgálja, RO/EU tanúsítvánnyal.",
     "productsTitle": "Válaszd ki a neked megfelelő kiszerelést",
-    "productsCta": "Összes termék megtekintése"
+    "productsCta": "Összes termék megtekintése",
+    "whyUsTitle": "Miért az AMULET-et válaszd?",
+    "whyUs1Title": "Házhozszállítás",
+    "whyUs1Text": "Nem kell cipelned a nehéz palackokat a boltból — otthonodba vagy az irodádba szállítjuk.",
+    "whyUs2Title": "Ellenőrzött összetétel",
+    "whyUs2Text": "Nem csak ígéretek — megnézheted a teljes labor-elemzést, valós számokkal.",
+    "whyUs3Title": "Fizetés kiszállításkor",
+    "whyUs3Text": "Semmi online kockázat — csak akkor fizetsz, amikor megkapod a rendelést, készpénzben.",
+    "whyUs4Title": "Helyi vállalkozás, 10+ éve",
+    "whyUs4Text": "Ismerjük a környéket és az ügyfeleinket — nem egy névtelen raktár vagyunk.",
+    "howToOrderTitle": "Hogyan rendelj?",
+    "step1Title": "Válaszd ki a terméket",
+    "step1Text": "1,5L palack vagy 19L ballon, darabszám vagy kívánt összeg alapján.",
+    "step2Title": "Add meg az adataid",
+    "step2Text": "Név, telefonszám és szállítási cím — kevesebb, mint egy perc.",
+    "step3Title": "Fizess kiszállításkor",
+    "step3Text": "Telefonon visszaigazoljuk a rendelést, majd kiszállítjuk az ajtódig.",
+    "b2bTitle": "Irodáknak, iskoláknak és edzőtermeknek",
+    "b2bText": "Rendszeres kiszállítást és nagyobb mennyiségeket biztosítunk cégeknek, intézményeknek és közösségi tereknek. Vedd fel velünk a kapcsolatot személyre szabott szállítási rendért.",
+    "b2bCta": "Kérj ajánlatot"
   },
   "products": {
     "meta": {
@@ -72,7 +91,9 @@
     "total": "Összesen",
     "freeDeliveryReached": "Ingyenes házhozszállítás jár!",
     "freeDeliveryProgress": "Adj hozzá még {amount} RON értékben az ingyenes szállításhoz.",
-    "checkoutCta": "Rendelés folytatása"
+    "checkoutCta": "Rendelés folytatása",
+    "reorderTitle": "Ugyanazt rendeled, mint legutóbb?",
+    "reorderCta": "Kosárba teszem"
   },
   "order": {
     "title": "Rendelés véglegesítése",

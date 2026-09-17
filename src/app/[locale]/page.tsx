@@ -112,6 +112,69 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center text-2xl font-semibold text-brand-navy sm:text-3xl">
+            {t("whyUsTitle")}
+          </h2>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[1, 2, 3, 4].map((n) => (
+              <div
+                key={n}
+                className="rounded-2xl border border-neutral-100 bg-white p-6 shadow-sm"
+              >
+                <h3 className="text-base font-semibold text-brand-blue-deep">
+                  {t(`whyUs${n}Title`)}
+                </h3>
+                <p className="mt-2 text-sm text-neutral-600">
+                  {t(`whyUs${n}Text`)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-neutral-50 px-6 py-16">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-semibold text-brand-navy sm:text-3xl">
+            {t("howToOrderTitle")}
+          </h2>
+          <div className="mt-10 grid gap-8 sm:grid-cols-3">
+            {[1, 2, 3].map((n) => (
+              <div key={n} className="flex flex-col items-center text-center">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-navy text-lg font-bold text-white">
+                  {n}
+                </div>
+                <h3 className="mt-4 text-base font-semibold text-brand-navy">
+                  {t(`step${n}Title`)}
+                </h3>
+                <p className="mt-1 text-sm text-neutral-600">
+                  {t(`step${n}Text`)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-16">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 rounded-3xl bg-brand-navy px-6 py-12 text-center text-white sm:px-12">
+          <h2 className="text-2xl font-semibold sm:text-3xl">
+            {t("b2bTitle")}
+          </h2>
+          <p className="max-w-2xl text-sm text-white/80 sm:text-base">
+            {t("b2bText")}
+          </p>
+          <Link
+            href="/contact"
+            className="mt-2 rounded-full bg-white px-8 py-3 text-sm font-semibold text-brand-navy transition-colors hover:bg-neutral-100"
+          >
+            {t("b2bCta")}
+          </Link>
+        </div>
+      </section>
     </main>
   );
 }
