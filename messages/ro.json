@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "why": "De ce apă alcalină?",
+    "products": "Produse",
+    "faq": "Întrebări frecvente",
+    "contact": "Contact",
+    "cart": "Coșul meu"
+  },
+  "home": {
+    "trustBadge": "Peste 10 ani alături de clienții noștri",
+    "heroTitle": "Puritate naturală. Echilibru alcalin.",
+    "tagline": "Apă minerală naturală alcalină, pH 8,2",
+    "cta": "Vezi produsele",
+    "secondaryCta": "De ce apă alcalină?",
+    "usp1Title": "pH 8,2",
+    "usp1Text": "Echilibru alcalin natural, izvorât din surse protejate.",
+    "usp2Title": "100% naturală",
+    "usp2Text": "Fără procesare chimică, direct din natură în sticlă.",
+    "usp3Title": "Livrare locală",
+    "usp3Text": "Livrare rapidă în Salonta, Oradea și Arad.",
+    "usp4Title": "Testată și certificată",
+    "usp4Text": "Testată de laboratorul Aqua Labor, certificată RO/UE.",
+    "productsTitle": "Alege formatul potrivit",
+    "productsCta": "Vezi toate produsele"
+  },
+  "products": {
+    "title": "Produsele noastre",
+    "addToCart": "Adaugă în coș",
+    "priceLabel": "Preț",
+    "depositLabel": "Garanție SGR",
+    "perUnit": "/ bucată",
+    "packInfo": "Se vinde la bucată. 6 sticle = 1 bax.",
+    "packUnitLabel": "bax",
+    "packBreakdownExact": "= {packs} bax",
+    "packBreakdownMixed": "= {packs} bax + {remainder} buc",
+    "sgrNote": "Garanția de 0,5 RON/sticlă este garanția SGR națională și poate fi recuperată la orice punct de colectare SGR.",
+    "exchangeLabel": "Am bidon gol pentru schimb",
+    "exchangePriceNote": "35 RON / bucată",
+    "noExchangeLabel": "Nu am bidon gol pentru schimb",
+    "noExchangePriceNote": "75 RON / bucată",
+    "handleNotice": "Bidonul returnabil poate fi livrat cu sau fără mâner, în funcție de stoc. Nu poate fi ales.",
+    "byQuantity": "După cantitate",
+    "byValue": "După valoare",
+    "valueLabel": "Valoare dorită (RON)",
+    "valuePreview": "≈ {qty} buc · {total} RON",
+    "addByValue": "Adaugă",
+    "items": {
+      "bottle-1-5l": {
+        "name": "Sticlă PET 1,5 litri",
+        "description": "Apă alcalină AMULET în sticlă PET reciclabilă de 1,5 litri, ideală pentru consum zilnic acasă sau la birou. Se vinde la bucată (6 sticle = 1 bax)."
+      },
+      "bottle-19l": {
+        "name": "Bidon refolosibil 19 litri",
+        "description": "Bidon reutilizabil de 19 litri, soluția ecologică pentru familii, birouri, școli și săli de sport."
+      }
+    }
+  },
+  "cart": {
+    "title": "Coșul meu",
+    "empty": "Coșul tău este momentan gol.",
+    "quantity": "Cantitate",
+    "remove": "Elimină",
+    "total": "Total",
+    "freeDeliveryReached": "Livrare gratuită la domiciliu inclusă!",
+    "freeDeliveryProgress": "Mai adaugă produse de {amount} RON pentru livrare gratuită.",
+    "checkoutCta": "Continuă comanda"
+  },
+  "order": {
+    "title": "Finalizează comanda",
+    "subtitle": "Completează datele tale, iar noi te contactăm pentru confirmare. Plata se face la livrare.",
+    "name": "Nume și prenume",
+    "phone": "Telefon",
+    "email": "Email",
+    "city": "Localitate",
+    "address": "Adresă de livrare",
+    "notes": "Observații (opțional)",
+    "submit": "Trimite comanda",
+    "successTitle": "Comandă trimisă!",
+    "successMessage": "Îți mulțumim! Te vom contacta în curând pentru confirmarea comenzii.",
+    "deliveryInfoTitle": "Program de livrare",
+    "deliveryInfo": "Livrare gratuită pentru comenzi de peste 150 RON. Program: Salonta – Luni până Joi, Oradea – Luni și Miercuri, Arad – Joi."
+  },
+  "why": {
+    "title": "De ce apă alcalină?",
+    "intro": "Apa alcalină AMULET provine din surse naturale protejate și are un pH de 8,2, peste nivelul apei obișnuite de la robinet sau al majorității apelor îmbuteliate.",
+    "point1Title": "Echilibru natural",
+    "point1Text": "Un pH alcalin (peste 7) ajută la echilibrarea acidității obișnuite din alimentația modernă.",
+    "point2Title": "Bogată în minerale",
+    "point2Text": "Conține bicarbonat, calciu, sodiu și magneziu în proporții naturale, fără adaosuri artificiale.",
+    "point3Title": "Hidratare superioară",
+    "point3Text": "Structura moleculară a apei alcaline poate favoriza o hidratare mai eficientă pe parcursul zilei.",
+    "point4Title": "Sursă protejată",
+    "point4Text": "Captată și îmbuteliată cu grijă pentru a păstra puritatea naturală a apei.",
+    "point5Title": "Calitate testată și certificată",
+    "point5Text": "Apa AMULET este testată de laboratorul acreditat Aqua Labor (Ungaria) și certificată conform standardelor românești și europene. Sticlele de 1,5 litri conțin 30% material reciclat.",
+    "disclaimer": "Informațiile de mai sus au caracter general și nu înlocuiesc sfatul medical. Pentru recomandări personalizate, consultă un specialist."
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "question": "Care este cantitatea minimă pentru livrare gratuită?",
+        "answer": "Livrarea la domiciliu este gratuită pentru comenzi de peste 150 RON. Sub această valoare, te contactăm pentru a stabili modalitatea de livrare."
+      },
+      {
+        "question": "În ce zile livrați?",
+        "answer": "Livrăm în Salonta și împrejurimi (rază de aprox. 50 km) de Luni până Joi, în Oradea Luni și Miercuri, iar în Arad Joi."
+      },
+      {
+        "question": "Ce este garanția de 0,5 RON de la sticlele de 1,5 litri?",
+        "answer": "Este garanția SGR (Sistemul de Garanție-Returnare), obligatorie la nivel național pentru ambalajele PET. Poate fi recuperată la orice punct de colectare SGR din țară, nu doar de la noi."
+      },
+      {
+        "question": "În ce cantitate se vând sticlele de 1,5 litri?",
+        "answer": "Sticlele de 1,5 litri se vând la bucată. Pentru referință, 6 sticle formează un bax — la finalizarea comenzii îți arătăm automat echivalentul în baxuri."
+      },
+      {
+        "question": "Bidonul de 19 litri este returnabil?",
+        "answer": "Da, bidoanele de 19 litri sunt reutilizabile. Prețul de 35 RON se aplică atunci când predai un bidon gol la livrare; fără bidon de schimb, prețul este 75 RON."
+      },
+      {
+        "question": "Bidonul de 19 litri are mâner?",
+        "answer": "Bidonul livrat poate fi cu sau fără mâner, în funcție de stocul disponibil. Această variantă nu poate fi aleasă de client."
+      },
+      {
+        "question": "Cum plătesc comanda?",
+        "answer": "Plata se face la livrare, în numerar sau conform înțelegerii stabilite telefonic. Momentan nu procesăm plăți online pe site."
+      },
+      {
+        "question": "Pot comanda pentru firmă, birou sau școală?",
+        "answer": "Da, oferim livrări recurente pentru birouri, școli și săli de sport. Contactează-ne pentru o ofertă personalizată."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Ai o întrebare sau vrei să stabilim o livrare recurentă? Suntem aici să te ajutăm.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "locationLabel": "Depozit",
+    "hoursLabel": "Program depozit",
+    "hoursText": "Luni – Vineri, 8:00 – 16:30",
+    "deliveryTitle": "Zone și program de livrare",
+    "deliveryText": "Program de livrare: Salonta și împrejurimi (rază de aprox. 50 km) – Luni până Joi · Oradea – Luni și Miercuri · Arad – Joi. Livrare gratuită pentru comenzi de peste 150 RON."
+  },
+  "footer": {
+    "companyName": "Birta Impex SRL",
+    "companyLocation": "Salonta, România",
+    "companyAddress": "Str. Mărășești nr. 7, Salonta, jud. Bihor",
+    "trustNote": "Peste 10 ani alături de clienții noștri.",
+    "rights": "Toate drepturile rezervate.",
+    "deliveryNote": "Livrare gratuită peste 150 RON · Salonta, Oradea și Arad"
+  }
+}

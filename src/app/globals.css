@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #14213d;
+
+  --brand-blue-light: #8fe0f2;
+  --brand-blue: #2fb2d9;
+  --brand-blue-deep: #1c7fa8;
+  --brand-navy: #232a5c;
+  --brand-red: #e0392c;
+  --neutral-50: #f8fafb;
+  --neutral-100: #eef2f4;
+  --neutral-200: #dde3e7;
+  --neutral-600: #5b6673;
+  --neutral-900: #14213d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-blue-light: var(--brand-blue-light);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-blue-deep: var(--brand-blue-deep);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-red: var(--brand-red);
+  --color-neutral-50: var(--neutral-50);
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-900: var(--neutral-900);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer components {
+  .input {
+    @apply h-11 w-full rounded-lg border border-neutral-200 px-3.5 text-base text-neutral-900 outline-none transition-colors focus:border-brand-blue;
+  }
+
+  textarea.input {
+    height: auto;
+  }
+}

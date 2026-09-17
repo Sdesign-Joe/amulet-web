@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Kezdőlap",
+    "why": "Miért lúgos víz?",
+    "products": "Termékek",
+    "faq": "Gyakori kérdések",
+    "contact": "Kapcsolat",
+    "cart": "Kosaram"
+  },
+  "home": {
+    "trustBadge": "Több mint 10 éve ügyfeleink szolgálatában",
+    "heroTitle": "Természetes tisztaság. Lúgos egyensúly.",
+    "tagline": "Természetes lúgos ásványvíz, pH 8,2",
+    "cta": "Termékek megtekintése",
+    "secondaryCta": "Miért lúgos víz?",
+    "usp1Title": "pH 8,2",
+    "usp1Text": "Természetes lúgos egyensúly, védett forrásokból.",
+    "usp2Title": "100% természetes",
+    "usp2Text": "Vegyi kezelés nélkül, a természetből egyenesen a palackba.",
+    "usp3Title": "Helyi kiszállítás",
+    "usp3Text": "Gyors házhozszállítás Nagyszalonta, Nagyvárad és Arad térségében.",
+    "usp4Title": "Bevizsgált, tanúsított",
+    "usp4Text": "Az Aqua Labor vizsgálja, RO/EU tanúsítvánnyal.",
+    "productsTitle": "Válaszd ki a neked megfelelő kiszerelést",
+    "productsCta": "Összes termék megtekintése"
+  },
+  "products": {
+    "title": "Termékeink",
+    "addToCart": "Kosárba teszem",
+    "priceLabel": "Ár",
+    "depositLabel": "SGR betét",
+    "perUnit": "/ darab",
+    "packInfo": "Darabra kapható. 6 db = 1 zsugor.",
+    "packUnitLabel": "zsugor",
+    "packBreakdownExact": "= {packs} zsugor",
+    "packBreakdownMixed": "= {packs} zsugor + {remainder} db",
+    "sgrNote": "A 0,5 RON/palack betét az országos SGR (Sistemul Garanție-Returnare) betét, bármelyik SGR gyűjtőpontban visszaválthatod.",
+    "exchangeLabel": "Van csere ballonom",
+    "exchangePriceNote": "35 RON / darab",
+    "noExchangeLabel": "Nincs csere ballonom",
+    "noExchangePriceNote": "75 RON / darab",
+    "handleNotice": "A visszaváltható ballon fülekkel vagy anélkül érkezhet, készlet függvényében. Ez nem választható.",
+    "byQuantity": "Darabszám szerint",
+    "byValue": "Összeg szerint",
+    "valueLabel": "Kívánt összeg (RON)",
+    "valuePreview": "≈ {qty} db · {total} RON",
+    "addByValue": "Hozzáadás",
+    "items": {
+      "bottle-1-5l": {
+        "name": "1,5 literes PET palack",
+        "description": "AMULET lúgos ásványvíz újrahasznosítható 1,5 literes PET palackban, ideális napi fogyasztásra otthon vagy az irodában. Darabra kapható (6 db = 1 zsugor)."
+      },
+      "bottle-19l": {
+        "name": "19 literes visszaváltható ballon",
+        "description": "Újrahasználható 19 literes ballon, környezetbarát megoldás családoknak, irodáknak, iskoláknak és edzőtermeknek."
+      }
+    }
+  },
+  "cart": {
+    "title": "Kosaram",
+    "empty": "A kosarad jelenleg üres.",
+    "quantity": "Mennyiség",
+    "remove": "Eltávolítás",
+    "total": "Összesen",
+    "freeDeliveryReached": "Ingyenes házhozszállítás jár!",
+    "freeDeliveryProgress": "Adj hozzá még {amount} RON értékben az ingyenes szállításhoz.",
+    "checkoutCta": "Rendelés folytatása"
+  },
+  "order": {
+    "title": "Rendelés véglegesítése",
+    "subtitle": "Add meg az adataidat, mi felvesszük veled a kapcsolatot a rendelés visszaigazolásához. A fizetés kiszállításkor történik.",
+    "name": "Teljes név",
+    "phone": "Telefonszám",
+    "email": "Email",
+    "city": "Település",
+    "address": "Szállítási cím",
+    "notes": "Megjegyzés (opcionális)",
+    "submit": "Rendelés elküldése",
+    "successTitle": "Rendelés elküldve!",
+    "successMessage": "Köszönjük! Hamarosan felvesszük veled a kapcsolatot a rendelés visszaigazolásához.",
+    "deliveryInfoTitle": "Szállítási rend",
+    "deliveryInfo": "Ingyenes szállítás 150 RON feletti rendelés esetén. Program: Nagyszalonta – Hétfőtől Csütörtökig, Nagyvárad – Hétfő és Szerda, Arad – Csütörtök."
+  },
+  "why": {
+    "title": "Miért lúgos víz?",
+    "intro": "Az AMULET lúgos ásványvíz védett természetes forrásokból származik, pH-ja 8,2 – magasabb, mint a csapvíz vagy a legtöbb palackozott víz esetében.",
+    "point1Title": "Természetes egyensúly",
+    "point1Text": "A lúgos (7 feletti pH-jú) víz segíthet ellensúlyozni a modern táplálkozás savasságát.",
+    "point2Title": "Ásványi anyagokban gazdag",
+    "point2Text": "Természetes arányban tartalmaz bikarbonátot, kalciumot, nátriumot és magnéziumot, mesterséges adalékok nélkül.",
+    "point3Title": "Hatékonyabb hidratálás",
+    "point3Text": "A lúgos víz molekulaszerkezete elősegítheti a szervezet hatékonyabb hidratálását a nap folyamán.",
+    "point4Title": "Védett forrás",
+    "point4Text": "Gondosan kinyerve és palackozva, hogy megőrizze a víz természetes tisztaságát.",
+    "point5Title": "Bevizsgált, tanúsított minőség",
+    "point5Text": "Az AMULET vizet az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálja, és román és európai szabványok szerint tanúsított. Az 1,5 literes palackok 30% újrahasznosított anyagot tartalmaznak.",
+    "disclaimer": "A fenti információk általános jellegűek, nem helyettesítik az orvosi tanácsadást. Személyre szabott javaslatért fordulj szakemberhez."
+  },
+  "faq": {
+    "title": "Gyakori kérdések",
+    "items": [
+      {
+        "question": "Mennyi a minimális rendelés az ingyenes szállításhoz?",
+        "answer": "A házhozszállítás 150 RON feletti rendelés esetén ingyenes. Ez alatt felvesszük veled a kapcsolatot a szállítás egyeztetéséhez."
+      },
+      {
+        "question": "Milyen napokon szállítotok?",
+        "answer": "Nagyszalonta és környékére (kb. 50 km sugarú körzet) Hétfőtől Csütörtökig, Nagyváradra Hétfőn és Szerdán, Aradra Csütörtökön szállítunk."
+      },
+      {
+        "question": "Mi az a 0,5 RON betét az 1,5 literes palackoknál?",
+        "answer": "Ez az országos SGR (Sistemul Garanție-Returnare) betét, ami minden PET palackra kötelező Romániában. Bármelyik SGR gyűjtőpontban visszaválthatod, nem csak nálunk."
+      },
+      {
+        "question": "Milyen kiszerelésben kapható az 1,5 literes víz?",
+        "answer": "Az 1,5 literes palackokat darabra rendeled. Tájékoztatásul: 6 db alkot egy zsugort — a rendelés véglegesítésénél automatikusan megmutatjuk a zsugor-egyenértéket is."
+      },
+      {
+        "question": "A 19 literes ballon visszaváltható?",
+        "answer": "Igen, a 19 literes ballonok újrahasználhatók. A 35 RON-os ár akkor érvényes, ha kiszállításkor átadsz egy üres ballont cserébe; csere ballon nélkül az ár 75 RON."
+      },
+      {
+        "question": "A 19 literes ballonnak van füle?",
+        "answer": "A kiszállított ballon lehet fülekkel vagy anélkül, a raktáron lévő készlet függvényében. Ez a változat nem választható."
+      },
+      {
+        "question": "Hogyan fizethetek a rendelésért?",
+        "answer": "A fizetés kiszállításkor történik, készpénzben vagy telefonon egyeztetett módon. Online fizetést jelenleg nem fogadunk el a weboldalon."
+      },
+      {
+        "question": "Rendelhetek cégnek, irodának vagy iskolának?",
+        "answer": "Igen, rendszeres kiszállítást is vállalunk irodák, iskolák és edzőtermek részére. Vedd fel velünk a kapcsolatot személyre szabott ajánlatért."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "intro": "Kérdésed van, vagy rendszeres szállítást szeretnél megbeszélni? Szívesen segítünk.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "locationLabel": "Raktár",
+    "hoursLabel": "Raktár nyitvatartása",
+    "hoursText": "Hétfő – Péntek, 8:00 – 16:30",
+    "deliveryTitle": "Szállítási körzetek és rend",
+    "deliveryText": "Szállítási rend: Nagyszalonta és környéke (kb. 50 km sugarú körzet) – Hétfőtől Csütörtökig · Nagyvárad – Hétfő és Szerda · Arad – Csütörtök. Ingyenes szállítás 150 RON feletti rendelés esetén."
+  },
+  "footer": {
+    "companyName": "Birta Impex SRL",
+    "companyLocation": "Salonta (Nagyszalonta), Románia",
+    "companyAddress": "Str. Mărășești nr. 7, Salonta, Bihor megye",
+    "trustNote": "Több mint 10 éve ügyfeleink szolgálatában.",
+    "rights": "Minden jog fenntartva.",
+    "deliveryNote": "Ingyenes szállítás 150 RON felett · Nagyszalonta, Nagyvárad és Arad"
+  }
+}
