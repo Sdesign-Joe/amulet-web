@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -25,6 +26,7 @@ export default function Footer() {
               amulet@amulet.ro
             </a>
           </p>
+          <SocialLinks />
         </div>
 
         <nav className="flex flex-col gap-2 text-sm">

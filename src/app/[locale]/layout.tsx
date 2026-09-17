@@ -99,6 +99,11 @@ export default async function LocaleLayout({
     },
     areaServed: ["Salonta", "Oradea", "Arad"],
     openingHours: "Mo-Fr 08:00-16:30",
+    sameAs: [
+      "https://www.facebook.com/amuletaqua",
+      "https://www.instagram.com/amulet_aqua/",
+      "https://x.com/Amulet_aqua",
+    ],
   };
 
   return (
