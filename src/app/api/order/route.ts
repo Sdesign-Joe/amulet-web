@@ -13,43 +13,74 @@ interface OrderPayload {
   totalRon: number;
   subjectPrefix: string;
   locale?: string;
+  consent?: boolean;
+  /** Honeypot: a hidden field real users never fill in. */
+  website?: string;
 }
 
+const LIMITS = {
+  name: 100,
+  phone: 25,
+  email: 200,
+  city: 60,
+  address: 250,
+  notes: 600,
+  line: 300,
+  maxLines: 20,
+};
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Always sent in Romanian, regardless of which locale the customer browsed
+// in — this is a deliberate business decision, not a translation gap.
 const CUSTOMER_EMAIL_COPY = {
-  ro: {
-    subject: "Comanda ta AMULET a fost primită",
-    greeting: (name: string) => `Bună, ${name}!`,
-    intro:
-      "Îți mulțumim pentru comandă! Te vom contacta în curând la numărul de telefon furnizat pentru confirmare. Plata se face la livrare.",
-    summary: "Rezumatul comenzii:",
-    total: "Total",
-    footer: "AMULET · Birta Impex SRL · +40 741 597 436 · amulet@amulet.ro",
-  },
-  hu: {
-    subject: "Az AMULET rendelésed megérkezett",
-    greeting: (name: string) => `Kedves ${name}!`,
-    intro:
-      "Köszönjük a rendelésed! Hamarosan felvesszük veled a kapcsolatot a megadott telefonszámon a visszaigazoláshoz. A fizetés kiszállításkor történik.",
-    summary: "Rendelés összegzése:",
-    total: "Összesen",
-    footer: "AMULET · Birta Impex SRL · +40 741 597 436 · amulet@amulet.ro",
-  },
-} as const;
+  subject: "Comanda ta AMULET a fost primită",
+  greeting: (name: string) => `Bună, ${name}!`,
+  intro:
+    "Îți mulțumim pentru comandă! Te vom contacta în curând la numărul de telefon furnizat pentru confirmare. Plata se face la livrare.",
+  summary: "Rezumatul comenzii:",
+  total: "Total",
+  footer: "AMULET · Birta Impex SRL · +40 741 597 436 · amulet@amulet.ro",
+};
 
 export async function POST(request: Request) {
   const data = (await request.json()) as Partial<OrderPayload>;
   const { name, phone, city, address, lines, totalLabel, totalRon, subjectPrefix } =
     data;
 
+  // Honeypot: bots tend to fill every field; real users never see or fill
+  // this one. Pretend success without sending anything.
+  if (data.website) {
+    return NextResponse.json({ ok: true });
+  }
+
   if (
     !name ||
     !phone ||
     !city ||
     !address ||
+    !data.consent ||
     !Array.isArray(lines) ||
     lines.length === 0 ||
     typeof totalRon !== "number"
   ) {
+    return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
+  }
+
+  if (
+    name.length > LIMITS.name ||
+    phone.length > LIMITS.phone ||
+    city.length > LIMITS.city ||
+    address.length > LIMITS.address ||
+    (data.notes && data.notes.length > LIMITS.notes) ||
+    (data.email && data.email.length > LIMITS.email) ||
+    lines.length > LIMITS.maxLines ||
+    lines.some((line) => typeof line !== "string" || line.length > LIMITS.line)
+  ) {
+    return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
+  }
+
+  if (data.email && !EMAIL_RE.test(data.email)) {
     return NextResponse.json({ error: "invalid_payload" }, { status: 400 });
   }
 
@@ -84,8 +115,7 @@ export async function POST(request: Request) {
     }
 
     if (data.email) {
-      const copy =
-        CUSTOMER_EMAIL_COPY[data.locale === "hu" ? "hu" : "ro"];
+      const copy = CUSTOMER_EMAIL_COPY;
       const customerBody = [
         copy.greeting(name),
         "",

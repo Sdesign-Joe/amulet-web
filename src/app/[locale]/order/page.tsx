@@ -44,6 +44,8 @@ export default function OrderPage() {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [sendError, setSendError] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [website, setWebsite] = useState(""); // honeypot, must stay empty
   const [form, setForm] = useState<OrderForm>(() => {
     if (typeof window === "undefined") return EMPTY_FORM;
     try {
@@ -106,6 +108,8 @@ export default function OrderPage() {
           totalRon,
           subjectPrefix: `AMULET – ${t("title")}`,
           locale,
+          consent,
+          website,
         }),
       });
 
@@ -223,6 +227,24 @@ export default function OrderPage() {
       </div>
 
       <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">
+        {/* Honeypot: hidden from real users, catches basic bots that fill every field. */}
+        <div
+          aria-hidden="true"
+          className="absolute -left-[9999px] h-0 w-0 overflow-hidden"
+        >
+          <label>
+            Website
+            <input
+              type="text"
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              value={website}
+              onChange={(e) => setWebsite(e.target.value)}
+            />
+          </label>
+        </div>
+
         <Field label={t("name")} required>
           <input
             required
@@ -305,6 +327,35 @@ export default function OrderPage() {
             {totalRon.toFixed(2)} RON
           </span>
         </div>
+
+        <label className="flex items-start gap-2 text-sm text-neutral-600">
+          <input
+            type="checkbox"
+            required
+            checked={consent}
+            onChange={(e) => setConsent(e.target.checked)}
+            className="mt-0.5 h-4 w-4 shrink-0"
+          />
+          <span>
+            {t("consentPrefix")}{" "}
+            <Link
+              href="/terms"
+              target="_blank"
+              className="underline hover:text-brand-navy"
+            >
+              {t("consentTermsLabel")}
+            </Link>{" "}
+            {t("consentAnd")}{" "}
+            <Link
+              href="/privacy"
+              target="_blank"
+              className="underline hover:text-brand-navy"
+            >
+              {t("consentPrivacyLabel")}
+            </Link>
+            .
+          </span>
+        </label>
 
         {sendError && (
           <p className="text-sm text-brand-red">{t("sendError")}</p>

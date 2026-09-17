@@ -109,6 +109,10 @@
       "arad": "Arad"
     },
     "phoneInvalid": "Introdu un număr de telefon valid (ex: 0741 597 436 sau +40 741 597 436).",
+    "consentPrefix": "Am citit și sunt de acord cu",
+    "consentTermsLabel": "Termenii și condițiile",
+    "consentAnd": "și",
+    "consentPrivacyLabel": "Politica de confidențialitate",
     "address": "Adresă de livrare",
     "notes": "Observații (opțional)",
     "submit": "Trimite comanda",

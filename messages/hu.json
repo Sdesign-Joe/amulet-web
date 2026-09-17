@@ -109,6 +109,10 @@
       "arad": "Arad"
     },
     "phoneInvalid": "Adj meg egy érvényes telefonszámot (pl. 0741 597 436 vagy +40 741 597 436).",
+    "consentPrefix": "Elolvastam és elfogadom a",
+    "consentTermsLabel": "Felhasználási feltételeket",
+    "consentAnd": "és az",
+    "consentPrivacyLabel": "Adatvédelmi tájékoztatót",
     "address": "Szállítási cím",
     "notes": "Megjegyzés (opcionális)",
     "submit": "Rendelés elküldése",
