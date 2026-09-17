@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex flex-1 flex-col">
       <section className="relative overflow-hidden bg-neutral-50">
         <video
-          className="absolute inset-0 h-full w-full object-cover opacity-30"
+          className="absolute inset-0 h-full w-full object-cover opacity-20"
           src="/videos/amulet-alkaline-water.mp4"
           autoPlay
           muted
