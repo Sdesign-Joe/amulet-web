@@ -48,7 +48,7 @@
     "items": {
       "bottle-1-5l": {
         "name": "Sticlă PET 1,5 litri",
-        "description": "Apă alcalină AMULET în sticlă PET reciclabilă de 1,5 litri, ideală pentru consum zilnic acasă sau la birou. Se vinde la bucată (6 sticle = 1 bax)."
+        "description": "Apă alcalină AMULET în sticlă PET reciclabilă și fără BPA de 1,5 litri, ideală pentru consum zilnic acasă sau la birou. Se vinde la bucată (6 sticle = 1 bax)."
       },
       "bottle-19l": {
         "name": "Bidon refolosibil 19 litri",
@@ -102,7 +102,7 @@
     "point4Title": "Sursă protejată",
     "point4Text": "Apă minerală naturală alcalină din izvorul B-128, Mezőkovácsháza, captată și îmbuteliată cu grijă pentru a păstra puritatea naturală a apei.",
     "point5Title": "Calitate testată și certificată",
-    "point5Text": "Apa AMULET este testată de laboratorul acreditat Aqua Labor (Ungaria) și certificată conform standardelor românești și europene. Sticlele de 1,5 litri conțin 30% material reciclat.",
+    "point5Text": "Apa AMULET este testată de laboratorul acreditat Aqua Labor (Ungaria) și produsă în conformitate cu standardele ISO 9001 (management al calității) și ISO 14001 (management de mediu). Ambalajele sunt fără BPA, iar sticlele de 1,5 litri conțin 30% material reciclat.",
     "compositionTitle": "Compoziție minerală",
     "compositionSource": "Analiză de laborator efectuată de laboratorul acreditat Aqua Labor (Ungaria), la izvorul B-128, Mezőkovácsháza.",
     "phLabel": "pH (valoare măsurată)",
@@ -168,6 +168,60 @@
     "companyAddress": "Str. Mărășești nr. 7, Salonta, jud. Bihor",
     "trustNote": "Peste 10 ani alături de clienții noștri.",
     "rights": "Toate drepturile rezervate.",
-    "deliveryNote": "Livrare gratuită peste 150 RON · Salonta, Oradea și Arad"
+    "deliveryNote": "Livrare gratuită peste 150 RON · Salonta, Oradea și Arad",
+    "legalLinks": {
+      "terms": "Termeni și condiții",
+      "privacy": "Confidențialitate",
+      "cookies": "Cookie-uri"
+    }
+  },
+  "terms": {
+    "title": "Termeni și condiții",
+    "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
+    "intro": "Acești termeni și condiții reglementează utilizarea website-ului amulet.ro și comenzile plasate prin intermediul acestuia, operat de Birta Impex SRL.",
+    "sections": [
+      { "title": "1. Identificarea comerciantului", "body": "Birta Impex SRL, cu sediul social în Piața Transilvaniei nr. 7, 415500 Salonta, jud. Bihor, România, înregistrată la Registrul Comerțului sub nr. J2015000863054, CUI 34585600, denumită în continuare „Comerciantul” sau „AMULET”." },
+      { "title": "2. Produse și prețuri", "body": "Produsele prezentate pe site (apă alcalină AMULET în sticle de 1,5 litri și bidoane de 19 litri) au caracter informativ. Prețurile afișate sunt exprimate în RON și pot fi modificate fără notificare prealabilă; prețul valabil este cel comunicat la confirmarea comenzii." },
+      { "title": "3. Plasarea comenzii", "body": "Comanda se plasează prin completarea formularului de pe site cu datele de contact și livrare. Comanda este confirmată telefonic sau prin email de către Comerciant înainte de livrare." },
+      { "title": "4. Livrare", "body": "Livrarea se realizează în zona Salonta (Luni–Joi), Oradea (Luni și Miercuri) și Arad (Joi), în limita a aproximativ 50 km. Livrarea este gratuită pentru comenzi de peste 150 RON; sub această valoare, condițiile de livrare se stabilesc telefonic." },
+      { "title": "5. Plata", "body": "Plata se efectuează la livrare, în numerar sau conform înțelegerii stabilite cu Comerciantul. Website-ul nu procesează plăți online." },
+      { "title": "6. Bidonul de 19 litri și garanția SGR", "body": "Bidonul de 19 litri poate fi livrat la preț redus (35 RON) în schimbul unui bidon gol echivalent, sau la preț întreg (75 RON) fără schimb. Sticlele de 1,5 litri includ garanția SGR (0,5 RON/sticlă), recuperabilă la orice punct de colectare SGR din țară." },
+      { "title": "7. Dreptul de retragere", "body": "Conform OUG nr. 34/2014, consumatorul beneficiază de un drept de retragere din contract în termen de 14 zile de la livrare, fără a fi necesară justificarea deciziei. Acest drept nu se aplică produselor deja consumate sau desigilate din motive de igienă. Pentru exercitarea dreptului de retragere, te rugăm să ne contactezi la datele de mai jos." },
+      { "title": "8. Conformitatea produselor", "body": "Comerciantul răspunde pentru conformitatea produselor livrate potrivit legislației în vigoare. Orice neconformitate va fi semnalată Comerciantului în cel mai scurt timp de la constatare." },
+      { "title": "9. Limitarea răspunderii", "body": "Comerciantul depune diligențe rezonabile pentru acuratețea informațiilor de pe site, dar nu răspunde pentru eventuale erori tehnice sau întreruperi ale funcționării website-ului." },
+      { "title": "10. Proprietate intelectuală", "body": "Conținutul website-ului (texte, imagini, logo AMULET) este proprietatea Comerciantului și nu poate fi reprodus fără acordul scris al acestuia." },
+      { "title": "11. Protecția datelor cu caracter personal", "body": "Prelucrarea datelor cu caracter personal este descrisă în Politica de confidențialitate, parte integrantă a acestor termeni." },
+      { "title": "12. Soluționarea litigiilor", "body": "Eventualele reclamații pot fi adresate direct Comerciantului. Consumatorii se pot adresa și Autorității Naționale pentru Protecția Consumatorilor (ANPC, www.anpc.ro, telverde 0800 080 999) sau platformei europene de soluționare online a litigiilor: ec.europa.eu/consumers/odr." },
+      { "title": "13. Legea aplicabilă", "body": "Prezenții termeni și condiții sunt guvernați de legislația română." },
+      { "title": "14. Contact", "body": "Pentru orice întrebare legată de acești termeni: info@birtaimpex.ro sau +40 741 597 436." }
+    ]
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
+    "intro": "Această politică explică ce date cu caracter personal colectăm prin intermediul website-ului amulet.ro, în ce scop și care sunt drepturile tale, în conformitate cu Regulamentul (UE) 2016/679 (GDPR).",
+    "sections": [
+      { "title": "1. Operatorul de date", "body": "Operatorul de date cu caracter personal este Birta Impex SRL, cu sediul social în Piața Transilvaniei nr. 7, 415500 Salonta, jud. Bihor, CUI 34585600, Nr. Reg. Com. J2015000863054, contact: info@birtaimpex.ro." },
+      { "title": "2. Ce date colectăm", "body": "Prin formularul de comandă colectăm: nume, telefon, email (opțional), localitate, adresă de livrare și observații opționale. Serverele care găzduiesc site-ul pot înregistra automat date tehnice (adresă IP, tip de browser)." },
+      { "title": "3. Scopul prelucrării", "body": "Datele sunt folosite exclusiv pentru procesarea și livrarea comenzii, comunicarea cu tine în legătură cu comanda și, dacă este cazul, îndeplinirea obligațiilor contabile/fiscale." },
+      { "title": "4. Temeiul legal", "body": "Prelucrarea se bazează pe executarea unui contract (procesarea comenzii tale) și, după caz, pe interesul legitim al Comerciantului de a răspunde solicitărilor primite." },
+      { "title": "5. Cui transmitem datele", "body": "Datele comenzii sunt transmise prin serviciul de email Resend, folosit exclusiv pentru livrarea mesajului către Comerciant. Nu vindem și nu închiriem datele tale unor terți în scopuri de marketing." },
+      { "title": "6. Durata stocării", "body": "Datele legate de comenzi sunt păstrate pe durata necesară soluționării acestora și, dacă este cazul, pe durata impusă de legislația contabilă și fiscală (de regulă 5–10 ani pentru documente financiare)." },
+      { "title": "7. Drepturile tale", "body": "Ai dreptul de acces, rectificare, ștergere, restricționare, opoziție și portabilitate a datelor, precum și dreptul de a depune plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP, www.dataprotection.ro)." },
+      { "title": "8. Securitate", "body": "Luăm măsuri tehnice și organizatorice rezonabile pentru protejarea datelor tale împotriva accesului neautorizat, pierderii sau utilizării abuzive." },
+      { "title": "9. Contact", "body": "Pentru orice solicitare privind datele tale personale, ne poți contacta la info@birtaimpex.ro sau +40 741 597 436." },
+      { "title": "10. Modificări", "body": "Această politică poate fi actualizată periodic; versiunea curentă este întotdeauna disponibilă pe această pagină." }
+    ]
+  },
+  "cookiePolicy": {
+    "title": "Politica de cookie-uri",
+    "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
+    "intro": "Această pagină explică ce date sunt stocate în browserul tău atunci când vizitezi website-ul amulet.ro.",
+    "sections": [
+      { "title": "1. Ce folosim", "body": "Website-ul nostru NU folosește cookie-uri de analiză, publicitate sau urmărire (tracking). Folosim exclusiv stocare locală strict necesară (localStorage), care rămâne doar în browserul tău și nu este transmisă către noi sau către terți." },
+      { "title": "2. La ce folosește stocarea locală", "body": "Coșul de cumpărături: reține produsele adăugate în coș între vizite, pentru confortul tău. Date de comandă: dacă finalizezi o comandă, numele, telefonul, emailul, localitatea și adresa introduse sunt reținute local, ca să nu fie nevoie să le reintroduci la comanda următoare." },
+      { "title": "3. Cum poți șterge aceste date", "body": "Poți șterge oricând aceste date din setările browserului tău (opțiunea de ștergere a datelor site-ului) sau navigând într-o fereastră privată/incognito." },
+      { "title": "4. Actualizări viitoare", "body": "Dacă vom introduce în viitor instrumente de analiză sau marketing care necesită cookie-uri, această pagină va fi actualizată și, unde este cazul, îți vom cere consimțământul explicit." }
+    ]
   }
 }

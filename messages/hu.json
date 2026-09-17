@@ -48,7 +48,7 @@
     "items": {
       "bottle-1-5l": {
         "name": "1,5 literes PET palack",
-        "description": "AMULET lúgos ásványvíz újrahasznosítható 1,5 literes PET palackban, ideális napi fogyasztásra otthon vagy az irodában. Darabra kapható (6 db = 1 zsugor)."
+        "description": "AMULET lúgos ásványvíz újrahasznosítható és BPA-mentes 1,5 literes PET palackban, ideális napi fogyasztásra otthon vagy az irodában. Darabra kapható (6 db = 1 zsugor)."
       },
       "bottle-19l": {
         "name": "19 literes visszaváltható ballon",
@@ -102,7 +102,7 @@
     "point4Title": "Védett forrás",
     "point4Text": "Természetes lúgos ásványvíz a B-128 jelű forrásból, Mezőkovácsházáról, gondosan kinyerve és palackozva, hogy megőrizze a víz természetes tisztaságát.",
     "point5Title": "Bevizsgált, tanúsított minőség",
-    "point5Text": "Az AMULET vizet az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálja, és román és európai szabványok szerint tanúsított. Az 1,5 literes palackok 30% újrahasznosított anyagot tartalmaznak.",
+    "point5Text": "Az AMULET vizet az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálja, gyártása pedig az ISO 9001 (minőségirányítás) és ISO 14001 (környezetirányítás) szabványok szerint történik. A csomagolás BPA-mentes, az 1,5 literes palackok 30% újrahasznosított anyagot tartalmaznak.",
     "compositionTitle": "Ásványianyag-összetétel",
     "compositionSource": "Az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálata, a B-128 jelű forrásnál (Mezőkovácsháza) vett mintából.",
     "phLabel": "pH (mért érték)",
@@ -168,6 +168,60 @@
     "companyAddress": "Str. Mărășești nr. 7, Salonta, Bihor megye",
     "trustNote": "Több mint 10 éve ügyfeleink szolgálatában.",
     "rights": "Minden jog fenntartva.",
-    "deliveryNote": "Ingyenes szállítás 150 RON felett · Nagyszalonta, Nagyvárad és Arad"
+    "deliveryNote": "Ingyenes szállítás 150 RON felett · Nagyszalonta, Nagyvárad és Arad",
+    "legalLinks": {
+      "terms": "Felhasználási feltételek",
+      "privacy": "Adatvédelem",
+      "cookies": "Cookie-k"
+    }
+  },
+  "terms": {
+    "title": "Felhasználási feltételek",
+    "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
+    "intro": "Ezek a feltételek szabályozzák az amulet.ro weboldal használatát és az azon keresztül leadott rendeléseket, amelyet a Birta Impex SRL üzemeltet.",
+    "sections": [
+      { "title": "1. A kereskedő azonosítása", "body": "Birta Impex SRL, székhelye: Piața Transilvaniei nr. 7, 415500 Salonta, Bihor megye, Románia, cégjegyzékszám: J2015000863054, adószám (CUI): 34585600, a továbbiakban „Kereskedő” vagy „AMULET”." },
+      { "title": "2. Termékek és árak", "body": "A weboldalon bemutatott termékek (AMULET lúgos víz 1,5 literes palackban és 19 literes ballonban) tájékoztató jellegűek. A feltüntetett árak RON-ban értendők és előzetes értesítés nélkül változhatnak; a rendelés visszaigazolásakor közölt ár az irányadó." },
+      { "title": "3. Rendelés leadása", "body": "A rendelés a weboldalon található űrlap kitöltésével adható le, a kapcsolattartási és szállítási adatok megadásával. A Kereskedő a rendelést kiszállítás előtt telefonon vagy emailben visszaigazolja." },
+      { "title": "4. Kiszállítás", "body": "A kiszállítás Nagyszalonta térségében (Hétfő–Csütörtök), Nagyváradon (Hétfő és Szerda) és Aradon (Csütörtök) történik, kb. 50 km-es körzetben. 150 RON feletti rendelés esetén a szállítás ingyenes; ez alatt a feltételeket telefonon egyeztetjük." },
+      { "title": "5. Fizetés", "body": "A fizetés kiszállításkor történik, készpénzben vagy a Kereskedővel egyeztetett módon. A weboldal nem dolgoz fel online fizetést." },
+      { "title": "6. 19 literes ballon és az SGR betét", "body": "A 19 literes ballon kedvezményes áron (35 RON) rendelhető csere ballon leadása esetén, vagy teljes áron (75 RON) csere nélkül. Az 1,5 literes palackok tartalmazzák az SGR betétet (0,5 RON/palack), amely bármelyik SGR gyűjtőpontban visszaváltható." },
+      { "title": "7. Elállási jog", "body": "A 34/2014. sz. sürgősségi kormányrendelet (OUG) értelmében a fogyasztót a kiszállítástól számított 14 napon belül indoklás nélküli elállási jog illeti meg. Ez a jog nem vonatkozik a már elfogyasztott vagy higiéniai okokból felbontott termékekre. Az elállási jog gyakorlásához kérjük, vedd fel velünk a kapcsolatot az alábbi elérhetőségeken." },
+      { "title": "8. Termékmegfelelőség", "body": "A Kereskedő felel a kiszállított termékek megfelelőségéért a hatályos jogszabályok szerint. Bármilyen minőségi problémát kérjük, a lehető leghamarabb jelezz felénk." },
+      { "title": "9. Felelősség korlátozása", "body": "A Kereskedő minden ésszerű erőfeszítést megtesz a weboldalon szereplő információk pontosságáért, de nem vállal felelősséget technikai hibákért vagy a weboldal működésének megszakadásáért." },
+      { "title": "10. Szellemi tulajdon", "body": "A weboldal tartalma (szövegek, képek, az AMULET logó) a Kereskedő tulajdona, és írásbeli engedély nélkül nem másolható." },
+      { "title": "11. Személyes adatok védelme", "body": "A személyes adatok kezelését az Adatvédelmi tájékoztató szabályozza, amely jelen feltételek szerves részét képezi." },
+      { "title": "12. Vitarendezés", "body": "Panasszal közvetlenül a Kereskedőhöz fordulhatsz. Emellett fordulhatsz az Országos Fogyasztóvédelmi Hatósághoz (ANPC, www.anpc.ro, díjmentes zöld szám: 0800 080 999), vagy az uniós online vitarendezési platformhoz: ec.europa.eu/consumers/odr." },
+      { "title": "13. Alkalmazandó jog", "body": "Jelen feltételekre a román jogszabályok az irányadók." },
+      { "title": "14. Kapcsolat", "body": "Bármilyen kérdés esetén: info@birtaimpex.ro vagy +40 741 597 436." }
+    ]
+  },
+  "privacy": {
+    "title": "Adatvédelmi tájékoztató",
+    "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
+    "intro": "Ez a tájékoztató bemutatja, milyen személyes adatokat gyűjtünk az amulet.ro weboldalon keresztül, milyen célból, és milyen jogaid vannak a GDPR (EU 2016/679 rendelet) alapján.",
+    "sections": [
+      { "title": "1. Adatkezelő", "body": "Az adatkezelő a Birta Impex SRL, székhelye: Piața Transilvaniei nr. 7, 415500 Salonta, Bihor megye, adószám: 34585600, cégjegyzékszám: J2015000863054, kapcsolat: info@birtaimpex.ro." },
+      { "title": "2. Milyen adatokat gyűjtünk", "body": "A rendelési űrlapon keresztül a következő adatokat gyűjtjük: név, telefonszám, email (opcionális), település, szállítási cím és opcionális megjegyzés. A weboldalt kiszolgáló szerverek automatikusan rögzíthetnek technikai adatokat (IP-cím, böngésző típusa)." },
+      { "title": "3. Az adatkezelés célja", "body": "Az adatokat kizárólag a rendelésed feldolgozására és kiszállítására, a rendeléssel kapcsolatos kommunikációra, valamint szükség esetén a könyvviteli/adózási kötelezettségek teljesítésére használjuk." },
+      { "title": "4. Jogalap", "body": "Az adatkezelés jogalapja a szerződés teljesítése (a rendelésed feldolgozása), illetve indokolt esetben a Kereskedő jogos érdeke a hozzá beérkező megkeresések megválaszolására." },
+      { "title": "5. Kinek továbbítjuk az adatokat", "body": "A rendelés adatait a Resend email-küldő szolgáltatáson keresztül továbbítjuk, kizárólag azért, hogy a rendelés eljusson a Kereskedőhöz. Adataidat nem adjuk el és nem adjuk bérbe harmadik feleknek marketing célra." },
+      { "title": "6. Tárolási időtartam", "body": "A rendelésekkel kapcsolatos adatokat a rendelés lezárásához szükséges ideig, illetve - ha releváns - a számviteli és adójogszabályok által előírt ideig (jellemzően 5–10 év pénzügyi dokumentumok esetén) őrizzük meg." },
+      { "title": "7. Jogaid", "body": "Jogod van az adataidhoz való hozzáféréshez, azok helyesbítéséhez, törléséhez, korlátozásához, a kezelés elleni tiltakozáshoz és az adathordozhatósághoz, valamint panasszal élhetsz a Nemzeti Felügyeleti Hatóságnál (ANSPDCP, www.dataprotection.ro)." },
+      { "title": "8. Adatbiztonság", "body": "Ésszerű technikai és szervezési intézkedéseket teszünk adataid jogosulatlan hozzáférés, elvesztés vagy visszaélés elleni védelme érdekében." },
+      { "title": "9. Kapcsolat", "body": "Személyes adataiddal kapcsolatos bármilyen kérdés esetén: info@birtaimpex.ro vagy +40 741 597 436." },
+      { "title": "10. Módosítások", "body": "Ez a tájékoztató időről időre frissülhet; a mindenkori aktuális verzió ezen az oldalon érhető el." }
+    ]
+  },
+  "cookiePolicy": {
+    "title": "Cookie szabályzat",
+    "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
+    "intro": "Ez az oldal bemutatja, milyen adatok kerülnek tárolásra a böngésződben az amulet.ro weboldal látogatása során.",
+    "sections": [
+      { "title": "1. Amit használunk", "body": "Weboldalunk NEM használ elemző (analitikai), hirdetési vagy nyomkövető (tracking) cookie-kat. Kizárólag feltétlenül szükséges helyi tárolást (localStorage) alkalmazunk, ami csak a te böngésződben marad, és nem kerül hozzánk vagy harmadik félhez továbbításra." },
+      { "title": "2. Mire szolgál a helyi tárolás", "body": "Kosár: megjegyzi a kosárba tett termékeket a látogatások között, a kényelmed érdekében. Rendelési adatok: ha leadsz egy rendelést, a megadott név, telefonszám, email, település és cím helyben eltárolásra kerül, hogy legközelebb ne kelljen újra beírnod." },
+      { "title": "3. Hogyan törölheted ezeket az adatokat", "body": "Ezeket az adatokat bármikor törölheted a böngésződ beállításaiban (az oldal adatainak törlése opcióval), vagy privát/inkognitó ablakban böngészve." },
+      { "title": "4. Jövőbeli frissítések", "body": "Ha a jövőben elemző vagy marketing eszközöket vezetnénk be, amelyek cookie-kat igényelnek, ezt az oldalt frissítjük, és ahol szükséges, kifejezett hozzájárulásodat kérjük." }
+    ]
   }
 }

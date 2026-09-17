@@ -53,9 +53,24 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="border-t border-neutral-200 px-6 py-4 text-center text-xs text-neutral-600">
-        © {new Date().getFullYear()} AMULET · {t("companyName")}.{" "}
-        {t("rights")}
+      <div className="border-t border-neutral-200 px-6 py-4">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 text-center text-xs text-neutral-600 sm:flex-row sm:justify-between sm:text-left">
+          <p>
+            © {new Date().getFullYear()} AMULET · {t("companyName")}.{" "}
+            {t("rights")}
+          </p>
+          <nav className="flex items-center gap-4">
+            <Link href="/terms" className="hover:text-brand-navy">
+              {t("legalLinks.terms")}
+            </Link>
+            <Link href="/privacy" className="hover:text-brand-navy">
+              {t("legalLinks.privacy")}
+            </Link>
+            <Link href="/cookies" className="hover:text-brand-navy">
+              {t("legalLinks.cookies")}
+            </Link>
+          </nav>
+        </div>
       </div>
     </footer>
   );
