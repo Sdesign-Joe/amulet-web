@@ -21,6 +21,7 @@ export default function Home() {
           playsInline
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-neutral-50" />
+        <div className="absolute inset-0 bg-black/15" />
         <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-20 text-center sm:py-28">
           <Image
             src="/images/logo.png"
