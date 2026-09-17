@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import ProductCard from "@/components/ProductCard";
 import PhBadge from "@/components/PhBadge";
+import UspIcon from "@/components/UspIcon";
 import { products } from "@/lib/products";
 
 export default function Home() {
@@ -12,13 +13,14 @@ export default function Home() {
     <main className="flex flex-1 flex-col">
       <section className="relative overflow-hidden bg-neutral-50">
         <video
-          className="absolute inset-0 h-full w-full object-cover opacity-30"
+          className="absolute inset-0 h-full w-full object-cover opacity-20"
           src="/videos/amulet-alkaline-water.mp4"
           autoPlay
           muted
           loop
           playsInline
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-neutral-50" />
         <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-20 text-center sm:py-28">
           <Image
             src="/images/logo.png"
@@ -69,15 +71,21 @@ export default function Home() {
           <p className="text-sm text-neutral-600">{t("usp1Text")}</p>
         </div>
         {[
-          { title: t("usp2Title"), text: t("usp2Text") },
-          { title: t("usp3Title"), text: t("usp3Text") },
-          { title: t("usp4Title"), text: t("usp4Text") },
+          { icon: "natural" as const, title: t("usp2Title"), text: t("usp2Text") },
+          { icon: "delivery" as const, title: t("usp3Title"), text: t("usp3Text") },
+          { icon: "certified" as const, title: t("usp4Title"), text: t("usp4Text") },
         ].map((usp) => (
-          <div key={usp.title} className="text-center sm:text-left">
-            <p className="text-2xl font-bold text-brand-blue-deep">
-              {usp.title}
-            </p>
-            <p className="mt-2 text-sm text-neutral-600">{usp.text}</p>
+          <div
+            key={usp.title}
+            className="flex flex-col items-center gap-3 text-center sm:flex-row sm:text-left"
+          >
+            <UspIcon kind={usp.icon} />
+            <div>
+              <p className="text-lg font-bold text-brand-blue-deep">
+                {usp.title}
+              </p>
+              <p className="mt-1 text-sm text-neutral-600">{usp.text}</p>
+            </div>
           </div>
         ))}
       </section>

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import EmptyStateIcon from "@/components/EmptyStateIcon";
 import { useCart } from "@/context/CartContext";
 import {
   getPackBreakdown,
@@ -35,6 +36,7 @@ const EMPTY_FORM: OrderForm = {
 export default function OrderPage() {
   const t = useTranslations("order");
   const p = useTranslations("products");
+  const c = useTranslations("cart");
   const locale = useLocale();
   const { items, totalRon, clear } = useCart();
 
@@ -133,11 +135,12 @@ export default function OrderPage() {
 
   if (entries.length === 0 && !submitted) {
     return (
-      <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-16 text-center">
-        <h1 className="text-3xl font-semibold text-brand-navy">
+      <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-center justify-center px-6 py-16 text-center">
+        <EmptyStateIcon />
+        <h1 className="mt-6 text-3xl font-semibold text-brand-navy">
           {t("title")}
         </h1>
-        <p className="mt-4 text-neutral-600">{p("title")}</p>
+        <p className="mt-4 text-neutral-600">{c("empty")}</p>
         <Link
           href="/products"
           className="mt-6 inline-block rounded-full bg-brand-navy px-8 py-3 text-sm font-semibold text-white hover:bg-brand-blue-deep"

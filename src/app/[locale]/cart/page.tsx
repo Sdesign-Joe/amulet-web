@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import EmptyStateIcon from "@/components/EmptyStateIcon";
 import { useCart } from "@/context/CartContext";
 import {
   getPackBreakdown,
@@ -25,24 +26,31 @@ export default function CartPage() {
     (totalRon / FREE_DELIVERY_THRESHOLD_RON) * 100,
   );
 
+  if (entries.length === 0) {
+    return (
+      <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center px-6 py-16 text-center">
+        <EmptyStateIcon />
+        <h1 className="mt-6 text-3xl font-semibold text-brand-navy sm:text-4xl">
+          {t("title")}
+        </h1>
+        <p className="mt-4 text-neutral-600">{t("empty")}</p>
+        <Link
+          href="/products"
+          className="mt-6 inline-block rounded-full bg-brand-navy px-8 py-3 text-sm font-semibold text-white hover:bg-brand-blue-deep"
+        >
+          {p("title")}
+        </Link>
+      </main>
+    );
+  }
+
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
       <h1 className="text-center text-3xl font-semibold text-brand-navy sm:text-4xl">
         {t("title")}
       </h1>
 
-      {entries.length === 0 ? (
-        <div className="mt-12 text-center">
-          <p className="text-neutral-600">{t("empty")}</p>
-          <Link
-            href="/products"
-            className="mt-6 inline-block rounded-full bg-brand-navy px-8 py-3 text-sm font-semibold text-white hover:bg-brand-blue-deep"
-          >
-            {p("title")}
-          </Link>
-        </div>
-      ) : (
-        <div className="mt-10">
+      <div className="mt-10">
           <div className="flex flex-col gap-4">
             {entries.map(([key, quantity]) => {
               const product = getProductForCartLine(key);
@@ -156,7 +164,6 @@ export default function CartPage() {
             {t("checkoutCta")}
           </Link>
         </div>
-      )}
     </main>
   );
 }

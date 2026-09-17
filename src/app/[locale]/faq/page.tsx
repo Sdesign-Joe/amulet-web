@@ -11,7 +11,24 @@ export default function FaqPage() {
 
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
-      <h1 className="text-center text-3xl font-semibold text-brand-navy sm:text-4xl">
+      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-neutral-100 text-brand-blue-deep">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={1.5}
+          className="h-7 w-7"
+          aria-hidden="true"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+          />
+        </svg>
+      </div>
+      <h1 className="mt-4 text-center text-3xl font-semibold text-brand-navy sm:text-4xl">
         {t("title")}
       </h1>
 

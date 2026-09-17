@@ -86,28 +86,33 @@ export default function ProductCard({ product }: { product: Product }) {
               {t("noExchangePriceNote")}
             </span>
           </label>
-          <p className="mt-1 text-xs text-neutral-600">{t("handleNotice")}</p>
+          <p className="mt-0.5 flex items-start gap-1 text-xs text-neutral-500">
+            <span aria-hidden="true">ⓘ</span>
+            {t("handleNotice")}
+          </p>
         </div>
       ) : (
         <div className="mt-4 flex flex-col items-center gap-1">
-          <div className="flex items-baseline gap-2">
-            <span className="text-2xl font-bold text-brand-navy">
+          <div className="flex flex-wrap items-baseline justify-center gap-x-2 gap-y-1">
+            <span className="whitespace-nowrap text-2xl font-bold text-brand-navy">
               {product.priceRon} RON
             </span>
-            <span className="text-sm text-neutral-600">{t("perUnit")}</span>
+            <span className="whitespace-nowrap text-sm text-neutral-600">
+              {t("perUnit")}
+            </span>
             {product.depositRon > 0 && (
-              <span className="text-xs text-neutral-600">
+              <span className="whitespace-nowrap text-xs text-neutral-600">
                 + {product.depositRon} RON ({t("depositLabel")})
               </span>
             )}
           </div>
           {product.packSize > 1 && (
-            <>
-              <p className="text-xs text-neutral-600">{t("packInfo")}</p>
-              <p className="mt-1 max-w-xs text-xs text-neutral-500">
-                {t("sgrNote")}
-              </p>
-            </>
+            <p className="mt-1 flex max-w-xs items-start gap-1 text-xs text-neutral-500">
+              <span aria-hidden="true">ⓘ</span>
+              <span>
+                {t("packInfo")} {t("sgrNote")}
+              </span>
+            </p>
           )}
         </div>
       )}
