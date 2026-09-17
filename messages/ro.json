@@ -8,6 +8,10 @@
     "cart": "Coșul meu"
   },
   "home": {
+    "meta": {
+      "title": "AMULET - Apă alcalină naturală pH 8,2 | Salonta, Oradea, Arad",
+      "description": "Apă minerală naturală alcalină AMULET, pH 8,2, testată de laborator. Livrare gratuită în Salonta, Oradea și Arad. Comandă online, plată la livrare."
+    },
     "trustBadge": "Peste 10 ani alături de clienții noștri",
     "heroTitle": "Puritate naturală. Echilibru alcalin.",
     "tagline": "Apă minerală naturală alcalină, pH 8,2",
@@ -25,6 +29,10 @@
     "productsCta": "Vezi toate produsele"
   },
   "products": {
+    "meta": {
+      "title": "Produse - Apă alcalină AMULET 1,5L și bidon 19L",
+      "description": "Comandă apă alcalină AMULET: sticle PET de 1,5 litri sau bidoane reutilizabile de 19 litri. Livrare gratuită peste 150 RON în Salonta, Oradea și Arad."
+    },
     "title": "Produsele noastre",
     "addToCart": "Adaugă în coș",
     "priceLabel": "Preț",
@@ -91,6 +99,10 @@
     "deliveryInfo": "Livrare gratuită pentru comenzi de peste 150 RON. Program: Salonta – Luni până Joi, Oradea – Luni și Miercuri, Arad – Joi."
   },
   "why": {
+    "meta": {
+      "title": "De ce apă alcalină? Beneficii și compoziție",
+      "description": "Află de ce apa alcalină AMULET (pH 8,2) este o alegere sănătoasă: compoziție minerală testată de laborator, sursă protejată, certificări ISO 9001/14001."
+    },
     "title": "De ce apă alcalină?",
     "intro": "Apa alcalină AMULET provine din surse naturale protejate și are un pH de 8,2, peste nivelul apei obișnuite de la robinet sau al majorității apelor îmbuteliate.",
     "point1Title": "Echilibru natural",
@@ -115,6 +127,10 @@
     "disclaimer": "Informațiile de mai sus au caracter general și nu înlocuiesc sfatul medical. Pentru recomandări personalizate, consultă un specialist."
   },
   "faq": {
+    "meta": {
+      "title": "Întrebări frecvente despre AMULET apă alcalină",
+      "description": "Răspunsuri la întrebări despre livrare, garanția SGR, bidonul de 19 litri și plata comenzilor AMULET."
+    },
     "title": "Întrebări frecvente",
     "items": [
       {
@@ -152,6 +168,10 @@
     ]
   },
   "contact": {
+    "meta": {
+      "title": "Contact AMULET - apă alcalină Salonta",
+      "description": "Contactează AMULET pentru comenzi și livrări de apă alcalină în Salonta, Oradea și Arad. Telefon, email și program de livrare."
+    },
     "title": "Contact",
     "intro": "Ai o întrebare sau vrei să stabilim o livrare recurentă? Suntem aici să te ajutăm.",
     "phoneLabel": "Telefon",
@@ -176,6 +196,10 @@
     }
   },
   "terms": {
+    "meta": {
+      "title": "Termeni și condiții",
+      "description": "Termenii și condițiile de utilizare a website-ului amulet.ro și de plasare a comenzilor, operat de Birta Impex SRL."
+    },
     "title": "Termeni și condiții",
     "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
     "intro": "Acești termeni și condiții reglementează utilizarea website-ului amulet.ro și comenzile plasate prin intermediul acestuia, operat de Birta Impex SRL.",
@@ -197,6 +221,10 @@
     ]
   },
   "privacy": {
+    "meta": {
+      "title": "Politica de confidențialitate",
+      "description": "Cum colectează și protejează Birta Impex SRL datele tale personale pe website-ul amulet.ro, conform GDPR."
+    },
     "title": "Politica de confidențialitate",
     "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
     "intro": "Această politică explică ce date cu caracter personal colectăm prin intermediul website-ului amulet.ro, în ce scop și care sunt drepturile tale, în conformitate cu Regulamentul (UE) 2016/679 (GDPR).",
@@ -214,6 +242,10 @@
     ]
   },
   "cookiePolicy": {
+    "meta": {
+      "title": "Politica de cookie-uri",
+      "description": "Informații despre stocarea locală folosită pe website-ul amulet.ro - fără cookie-uri de tracking sau publicitate."
+    },
     "title": "Politica de cookie-uri",
     "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
     "intro": "Această pagină explică ce date sunt stocate în browserul tău atunci când vizitezi website-ul amulet.ro.",

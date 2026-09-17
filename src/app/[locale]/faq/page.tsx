@@ -1,16 +1,43 @@
 import { useTranslations } from "next-intl";
+import { buildPageMetadata } from "@/lib/pageMetadata";
 
 interface FaqItem {
   question: string;
   answer: string;
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return buildPageMetadata("faq", locale, "/faq");
+}
+
 export default function FaqPage() {
   const t = useTranslations("faq");
   const items = t.raw("items") as FaqItem[];
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-neutral-100 text-brand-blue-deep">
         <svg
           xmlns="http://www.w3.org/2000/svg"

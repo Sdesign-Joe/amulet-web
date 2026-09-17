@@ -8,6 +8,10 @@
     "cart": "Kosaram"
   },
   "home": {
+    "meta": {
+      "title": "AMULET - Természetes lúgos ásványvíz pH 8,2 | Nagyszalonta, Nagyvárad, Arad",
+      "description": "AMULET természetes lúgos ásványvíz, pH 8,2, laborvizsgálattal. Ingyenes szállítás Nagyszalonta, Nagyvárad és Arad térségében. Rendelés online, fizetés kiszállításkor."
+    },
     "trustBadge": "Több mint 10 éve ügyfeleink szolgálatában",
     "heroTitle": "Természetes tisztaság. Lúgos egyensúly.",
     "tagline": "Természetes lúgos ásványvíz, pH 8,2",
@@ -25,6 +29,10 @@
     "productsCta": "Összes termék megtekintése"
   },
   "products": {
+    "meta": {
+      "title": "Termékek - AMULET lúgos víz 1,5L és 19L ballon",
+      "description": "Rendelj AMULET lúgos vizet: 1,5 literes PET palack vagy 19 literes újrahasználható ballon. Ingyenes szállítás 150 RON felett Nagyszalonta, Nagyvárad és Arad térségében."
+    },
     "title": "Termékeink",
     "addToCart": "Kosárba teszem",
     "priceLabel": "Ár",
@@ -91,6 +99,10 @@
     "deliveryInfo": "Ingyenes szállítás 150 RON feletti rendelés esetén. Program: Nagyszalonta – Hétfőtől Csütörtökig, Nagyvárad – Hétfő és Szerda, Arad – Csütörtök."
   },
   "why": {
+    "meta": {
+      "title": "Miért lúgos víz? Előnyök és összetétel",
+      "description": "Tudd meg, miért jó választás az AMULET lúgos víz (pH 8,2): bevizsgált ásványianyag-összetétel, védett forrás, ISO 9001/14001 tanúsítványok."
+    },
     "title": "Miért lúgos víz?",
     "intro": "Az AMULET lúgos ásványvíz védett természetes forrásokból származik, pH-ja 8,2 – magasabb, mint a csapvíz vagy a legtöbb palackozott víz esetében.",
     "point1Title": "Természetes egyensúly",
@@ -115,6 +127,10 @@
     "disclaimer": "A fenti információk általános jellegűek, nem helyettesítik az orvosi tanácsadást. Személyre szabott javaslatért fordulj szakemberhez."
   },
   "faq": {
+    "meta": {
+      "title": "Gyakori kérdések az AMULET lúgos vízről",
+      "description": "Válaszok a szállítással, az SGR betéttel, a 19 literes ballonnal és a fizetéssel kapcsolatos kérdésekre."
+    },
     "title": "Gyakori kérdések",
     "items": [
       {
@@ -152,6 +168,10 @@
     ]
   },
   "contact": {
+    "meta": {
+      "title": "Kapcsolat - AMULET lúgos víz Nagyszalonta",
+      "description": "Vedd fel a kapcsolatot az AMULET csapatával rendelésekhez és szállításokhoz Nagyszalonta, Nagyvárad és Arad térségében."
+    },
     "title": "Kapcsolat",
     "intro": "Kérdésed van, vagy rendszeres szállítást szeretnél megbeszélni? Szívesen segítünk.",
     "phoneLabel": "Telefon",
@@ -176,6 +196,10 @@
     }
   },
   "terms": {
+    "meta": {
+      "title": "Felhasználási feltételek",
+      "description": "Az amulet.ro weboldal használatára és a rendelésekre vonatkozó feltételek, üzemeltető: Birta Impex SRL."
+    },
     "title": "Felhasználási feltételek",
     "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
     "intro": "Ezek a feltételek szabályozzák az amulet.ro weboldal használatát és az azon keresztül leadott rendeléseket, amelyet a Birta Impex SRL üzemeltet.",
@@ -197,6 +221,10 @@
     ]
   },
   "privacy": {
+    "meta": {
+      "title": "Adatvédelmi tájékoztató",
+      "description": "Hogyan gyűjti és védi a Birta Impex SRL a személyes adataidat az amulet.ro weboldalon, a GDPR szerint."
+    },
     "title": "Adatvédelmi tájékoztató",
     "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
     "intro": "Ez a tájékoztató bemutatja, milyen személyes adatokat gyűjtünk az amulet.ro weboldalon keresztül, milyen célból, és milyen jogaid vannak a GDPR (EU 2016/679 rendelet) alapján.",
@@ -214,6 +242,10 @@
     ]
   },
   "cookiePolicy": {
+    "meta": {
+      "title": "Cookie szabályzat",
+      "description": "Információ az amulet.ro weboldalon használt helyi tárolásról - nyomkövető vagy hirdetési cookie-k nélkül."
+    },
     "title": "Cookie szabályzat",
     "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
     "intro": "Ez az oldal bemutatja, milyen adatok kerülnek tárolásra a böngésződben az amulet.ro weboldal látogatása során.",

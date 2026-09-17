@@ -1,4 +1,14 @@
 import { useTranslations } from "next-intl";
+import { buildPageMetadata } from "@/lib/pageMetadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return buildPageMetadata("contact", locale, "/contact");
+}
 
 function ContactIcon({ path }: { path: string }) {
   return (

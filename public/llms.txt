@@ -1,0 +1,36 @@
+# AMULET
+
+> AMULET is a natural alkaline mineral water brand (pH 8.2) produced and
+> distributed by Birta Impex SRL in Salonta, Bihor County, Romania. It is
+> sold in 1.5L PET bottles and 19L reusable containers, with home delivery
+> in Salonta, Oradea and Arad (Romania). The website is available in
+> Romanian (default) and Hungarian.
+
+## Key facts
+
+- Brand: AMULET (apă alcalină / lúgos ásványvíz)
+- Producer/distributor: Birta Impex SRL, CUI 34585600, Nr. Reg. Com. J2015000863054
+- Water source: izvorul B-128, Mezőkovácsháza
+- pH: 8.2 (label spec, ±0.5); lab-measured 8.38 by Aqua Labor (Hungary)
+- Certifications: ISO 9001 (quality management), ISO 14001 (environmental management)
+- Products: 1.5L PET bottle (3 RON + 0.5 RON SGR deposit), 19L reusable container
+  (35 RON with an empty container exchanged, 75 RON without)
+- Delivery: free above 150 RON, in Salonta (Mon-Thu), Oradea (Mon & Wed), Arad (Thu)
+- Payment: cash/on delivery only, no online payment
+- Contact: +40 741 597 436, amulet@amulet.ro
+- Warehouse: Str. Mărășești nr. 7, Salonta, jud. Bihor (Mon-Fri 8:00-16:30)
+- Registered office: Piața Transilvaniei nr. 7, 415500 Salonta, jud. Bihor
+
+## Pages
+
+- [Home (RO)](/ro): brand overview, hero, product highlights
+- [Home (HU)](/hu): Hungarian version of the above
+- [Why alkaline water (RO)](/ro/why): benefits, lab-tested mineral composition table
+- [Products (RO)](/ro/products): full product list with pricing
+- [FAQ (RO)](/ro/faq): delivery, deposit, payment and ordering questions
+- [Contact (RO)](/ro/contact): phone, email, warehouse address and delivery schedule
+- [Terms and Conditions (RO)](/ro/terms)
+- [Privacy Policy (RO)](/ro/privacy)
+- [Cookie Policy (RO)](/ro/cookies)
+
+Swap `/ro/` for `/hu/` in any of the above for the Hungarian version.
