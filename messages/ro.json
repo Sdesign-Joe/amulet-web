@@ -271,16 +271,17 @@
   "cookiePolicy": {
     "meta": {
       "title": "Politica de cookie-uri",
-      "description": "Informații despre stocarea locală folosită pe website-ul amulet.ro - fără cookie-uri de tracking sau publicitate."
+      "description": "Informații despre stocarea locală și statisticile de vizitare folosite pe website-ul amulet.ro - fără cookie-uri de tracking sau publicitate."
     },
     "title": "Politica de cookie-uri",
     "lastUpdated": "Ultima actualizare: 17 septembrie 2026",
     "intro": "Această pagină explică ce date sunt stocate în browserul tău atunci când vizitezi website-ul amulet.ro.",
     "sections": [
-      { "title": "1. Ce folosim", "body": "Website-ul nostru NU folosește cookie-uri de analiză, publicitate sau urmărire (tracking). Folosim exclusiv stocare locală strict necesară (localStorage), care rămâne doar în browserul tău și nu este transmisă către noi sau către terți." },
-      { "title": "2. La ce folosește stocarea locală", "body": "Coșul de cumpărături: reține produsele adăugate în coș între vizite, pentru confortul tău. Date de comandă: dacă finalizezi o comandă, numele, telefonul, emailul, localitatea și adresa introduse sunt reținute local, ca să nu fie nevoie să le reintroduci la comanda următoare." },
-      { "title": "3. Cum poți șterge aceste date", "body": "Poți șterge oricând aceste date din setările browserului tău (opțiunea de ștergere a datelor site-ului) sau navigând într-o fereastră privată/incognito." },
-      { "title": "4. Actualizări viitoare", "body": "Dacă vom introduce în viitor instrumente de analiză sau marketing care necesită cookie-uri, această pagină va fi actualizată și, unde este cazul, îți vom cere consimțământul explicit." }
+      { "title": "1. Ce folosim", "body": "Website-ul nostru NU folosește cookie-uri de publicitate sau de urmărire (tracking) în scopuri de marketing. Folosim doar stocare locală strict necesară (localStorage) și un instrument de statistici fără cookie-uri, descrise mai jos." },
+      { "title": "2. Statistici de vizitare (Vercel Analytics)", "body": "Folosim Vercel Analytics pentru a înțelege câți vizitatori are website-ul și ce pagini sunt mai populare. Acest instrument nu folosește cookie-uri și nu colectează date cu caracter personal sau identificatori care să te urmărească pe alte site-uri." },
+      { "title": "3. La ce folosește stocarea locală", "body": "Coșul de cumpărături: reține produsele adăugate în coș între vizite, pentru confortul tău. Date de comandă: dacă finalizezi o comandă, numele, telefonul, emailul, localitatea și adresa introduse sunt reținute local, ca să nu fie nevoie să le reintroduci la comanda următoare." },
+      { "title": "4. Cum poți șterge aceste date", "body": "Poți șterge oricând aceste date din setările browserului tău (opțiunea de ștergere a datelor site-ului) sau navigând într-o fereastră privată/incognito." },
+      { "title": "5. Actualizări viitoare", "body": "Dacă vom introduce în viitor instrumente de marketing sau publicitate care necesită cookie-uri, această pagină va fi actualizată și, unde este cazul, îți vom cere consimțământul explicit." }
     ]
   }
 }

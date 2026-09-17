@@ -271,16 +271,17 @@
   "cookiePolicy": {
     "meta": {
       "title": "Cookie szabályzat",
-      "description": "Információ az amulet.ro weboldalon használt helyi tárolásról - nyomkövető vagy hirdetési cookie-k nélkül."
+      "description": "Információ az amulet.ro weboldalon használt helyi tárolásról és látogatottság-mérésről - nyomkövető vagy hirdetési cookie-k nélkül."
     },
     "title": "Cookie szabályzat",
     "lastUpdated": "Utolsó frissítés: 2026. szeptember 17.",
     "intro": "Ez az oldal bemutatja, milyen adatok kerülnek tárolásra a böngésződben az amulet.ro weboldal látogatása során.",
     "sections": [
-      { "title": "1. Amit használunk", "body": "Weboldalunk NEM használ elemző (analitikai), hirdetési vagy nyomkövető (tracking) cookie-kat. Kizárólag feltétlenül szükséges helyi tárolást (localStorage) alkalmazunk, ami csak a te böngésződben marad, és nem kerül hozzánk vagy harmadik félhez továbbításra." },
-      { "title": "2. Mire szolgál a helyi tárolás", "body": "Kosár: megjegyzi a kosárba tett termékeket a látogatások között, a kényelmed érdekében. Rendelési adatok: ha leadsz egy rendelést, a megadott név, telefonszám, email, település és cím helyben eltárolásra kerül, hogy legközelebb ne kelljen újra beírnod." },
-      { "title": "3. Hogyan törölheted ezeket az adatokat", "body": "Ezeket az adatokat bármikor törölheted a böngésződ beállításaiban (az oldal adatainak törlése opcióval), vagy privát/inkognitó ablakban böngészve." },
-      { "title": "4. Jövőbeli frissítések", "body": "Ha a jövőben elemző vagy marketing eszközöket vezetnénk be, amelyek cookie-kat igényelnek, ezt az oldalt frissítjük, és ahol szükséges, kifejezett hozzájárulásodat kérjük." }
+      { "title": "1. Amit használunk", "body": "Weboldalunk NEM használ hirdetési vagy marketing célú nyomkövető (tracking) cookie-kat. Kizárólag feltétlenül szükséges helyi tárolást (localStorage) és egy cookie-mentes látogatottság-mérő eszközt használunk, amit lentebb részletezünk." },
+      { "title": "2. Látogatottság-mérés (Vercel Analytics)", "body": "A Vercel Analytics szolgáltatást használjuk annak megértésére, hányan látogatják a weboldalt és mely oldalak népszerűek. Ez az eszköz nem használ cookie-kat, és nem gyűjt olyan személyes adatot vagy azonosítót, amivel más oldalakon is nyomon követnének." },
+      { "title": "3. Mire szolgál a helyi tárolás", "body": "Kosár: megjegyzi a kosárba tett termékeket a látogatások között, a kényelmed érdekében. Rendelési adatok: ha leadsz egy rendelést, a megadott név, telefonszám, email, település és cím helyben eltárolásra kerül, hogy legközelebb ne kelljen újra beírnod." },
+      { "title": "4. Hogyan törölheted ezeket az adatokat", "body": "Ezeket az adatokat bármikor törölheted a böngésződ beállításaiban (az oldal adatainak törlése opcióval), vagy privát/inkognitó ablakban böngészve." },
+      { "title": "5. Jövőbeli frissítések", "body": "Ha a jövőben marketing vagy hirdetési eszközöket vezetnénk be, amelyek cookie-kat igényelnek, ezt az oldalt frissítjük, és ahol szükséges, kifejezett hozzájárulásodat kérjük." }
     ]
   }
 }
