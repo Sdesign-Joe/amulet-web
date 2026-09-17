@@ -94,6 +94,15 @@
     "point4Text": "Gondosan kinyerve és palackozva, hogy megőrizze a víz természetes tisztaságát.",
     "point5Title": "Bevizsgált, tanúsított minőség",
     "point5Text": "Az AMULET vizet az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálja, és román és európai szabványok szerint tanúsított. Az 1,5 literes palackok 30% újrahasznosított anyagot tartalmaznak.",
+    "compositionTitle": "Ásványianyag-összetétel",
+    "compositionSource": "Az akkreditált Aqua Labor laboratórium (Magyarország) vizsgálata, a forrásnál vett mintából.",
+    "phLabel": "pH (mért érték)",
+    "residueLabel": "Száraz maradék",
+    "bicarbonateLabel": "Bikarbonát (HCO₃⁻)",
+    "sodiumLabel": "Nátrium (Na⁺)",
+    "calciumLabel": "Kalcium (Ca²⁺)",
+    "magnesiumLabel": "Magnézium (Mg²⁺)",
+    "totalLabel": "Összes oldott ásványi anyag",
     "disclaimer": "A fenti információk általános jellegűek, nem helyettesítik az orvosi tanácsadást. Személyre szabott javaslatért fordulj szakemberhez."
   },
   "faq": {

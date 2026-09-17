@@ -94,6 +94,15 @@
     "point4Text": "Captată și îmbuteliată cu grijă pentru a păstra puritatea naturală a apei.",
     "point5Title": "Calitate testată și certificată",
     "point5Text": "Apa AMULET este testată de laboratorul acreditat Aqua Labor (Ungaria) și certificată conform standardelor românești și europene. Sticlele de 1,5 litri conțin 30% material reciclat.",
+    "compositionTitle": "Compoziție minerală",
+    "compositionSource": "Analiză de laborator efectuată de laboratorul acreditat Aqua Labor (Ungaria), la sursă.",
+    "phLabel": "pH (valoare măsurată)",
+    "residueLabel": "Reziduu sec",
+    "bicarbonateLabel": "Bicarbonat (HCO₃⁻)",
+    "sodiumLabel": "Sodiu (Na⁺)",
+    "calciumLabel": "Calciu (Ca²⁺)",
+    "magnesiumLabel": "Magneziu (Mg²⁺)",
+    "totalLabel": "Total minerale dizolvate",
     "disclaimer": "Informațiile de mai sus au caracter general și nu înlocuiesc sfatul medical. Pentru recomandări personalizate, consultă un specialist."
   },
   "faq": {
