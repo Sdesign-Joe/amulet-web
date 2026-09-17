@@ -12,6 +12,26 @@ import {
 } from "@/lib/products";
 import type { CartLineKey } from "@/lib/products";
 
+const CUSTOMER_INFO_KEY = "amulet-customer-info";
+
+interface OrderForm {
+  name: string;
+  phone: string;
+  email: string;
+  city: string;
+  address: string;
+  notes: string;
+}
+
+const EMPTY_FORM: OrderForm = {
+  name: "",
+  phone: "",
+  email: "",
+  city: "",
+  address: "",
+  notes: "",
+};
+
 export default function OrderPage() {
   const t = useTranslations("order");
   const p = useTranslations("products");
@@ -21,13 +41,16 @@ export default function OrderPage() {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [sendError, setSendError] = useState(false);
-  const [form, setForm] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    city: "",
-    address: "",
-    notes: "",
+  const [form, setForm] = useState<OrderForm>(() => {
+    if (typeof window === "undefined") return EMPTY_FORM;
+    try {
+      const saved = localStorage.getItem(CUSTOMER_INFO_KEY);
+      if (!saved) return EMPTY_FORM;
+      const parsed = JSON.parse(saved) as Partial<OrderForm>;
+      return { ...EMPTY_FORM, ...parsed };
+    } catch {
+      return EMPTY_FORM;
+    }
   });
 
   const entries = Object.entries(items) as [CartLineKey, number][];
@@ -83,6 +106,21 @@ export default function OrderPage() {
       });
 
       if (!res.ok) throw new Error("send_failed");
+
+      try {
+        localStorage.setItem(
+          CUSTOMER_INFO_KEY,
+          JSON.stringify({
+            name: form.name,
+            phone: form.phone,
+            email: form.email,
+            city: form.city,
+            address: form.address,
+          }),
+        );
+      } catch {
+        // ignore storage failures (e.g. private browsing)
+      }
 
       setSubmitted(true);
       clear();
@@ -182,6 +220,7 @@ export default function OrderPage() {
         <Field label={t("name")} required>
           <input
             required
+            autoComplete="name"
             value={form.name}
             onChange={handleChange("name")}
             className="input"
@@ -192,6 +231,7 @@ export default function OrderPage() {
             required
             type="tel"
             inputMode="tel"
+            autoComplete="tel"
             pattern="^\+?[0-9\s-]{7,15}$"
             title={t("phoneInvalid")}
             value={form.phone}
@@ -202,6 +242,7 @@ export default function OrderPage() {
         <Field label={t("email")}>
           <input
             type="email"
+            autoComplete="email"
             value={form.email}
             onChange={handleChange("email")}
             className="input"
@@ -210,6 +251,7 @@ export default function OrderPage() {
         <Field label={t("city")} required>
           <select
             required
+            autoComplete="address-level2"
             value={form.city}
             onChange={handleChange("city")}
             className="input"
@@ -225,6 +267,7 @@ export default function OrderPage() {
         <Field label={t("address")} required>
           <input
             required
+            autoComplete="street-address"
             value={form.address}
             onChange={handleChange("address")}
             className="input"
