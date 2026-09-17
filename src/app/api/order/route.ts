@@ -49,7 +49,7 @@ export async function POST(request: Request) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const { error } = await resend.emails.send({
-      from: "AMULET Comenzi <onboarding@resend.dev>",
+      from: "AMULET Comenzi <comenzi@amulet.ro>",
       to: "amulet@amulet.ro",
       replyTo: data.email || undefined,
       subject: `${subjectPrefix ?? "AMULET comandă"} – ${name}`,
