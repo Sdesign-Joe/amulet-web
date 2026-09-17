@@ -105,6 +105,7 @@ export default function OrderPage() {
           totalLabel: locale === "hu" ? "Összesen" : "Total",
           totalRon,
           subjectPrefix: `AMULET – ${t("title")}`,
+          locale,
         }),
       });
 

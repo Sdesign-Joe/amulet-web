@@ -203,6 +203,12 @@
     "deliveryTitle": "Zone și program de livrare",
     "deliveryText": "Program de livrare: Salonta și împrejurimi (rază de aprox. 50 km) – Luni până Joi · Oradea – Luni și Miercuri · Arad – Joi. Livrare gratuită pentru comenzi de peste 150 RON."
   },
+  "notFound": {
+    "title": "Pagina nu a fost găsită",
+    "text": "Se pare că această pagină nu (mai) există. Verifică link-ul sau continuă navigarea de mai jos.",
+    "homeCta": "Înapoi la pagina principală",
+    "productsCta": "Vezi produsele"
+  },
   "footer": {
     "companyName": "Birta Impex SRL",
     "companyLocation": "Salonta, România",

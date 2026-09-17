@@ -203,6 +203,12 @@
     "deliveryTitle": "Szállítási körzetek és rend",
     "deliveryText": "Szállítási rend: Nagyszalonta és környéke (kb. 50 km sugarú körzet) – Hétfőtől Csütörtökig · Nagyvárad – Hétfő és Szerda · Arad – Csütörtök. Ingyenes szállítás 150 RON feletti rendelés esetén."
   },
+  "notFound": {
+    "title": "Az oldal nem található",
+    "text": "Úgy tűnik, ez az oldal nem (már) létezik. Ellenőrizd a linket, vagy folytasd a böngészést lentebb.",
+    "homeCta": "Vissza a kezdőlapra",
+    "productsCta": "Termékek megtekintése"
+  },
   "footer": {
     "companyName": "Birta Impex SRL",
     "companyLocation": "Salonta (Nagyszalonta), Románia",
