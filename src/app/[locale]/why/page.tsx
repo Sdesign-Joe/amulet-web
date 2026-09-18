@@ -1,6 +1,12 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { compositionRows } from "@/lib/composition";
 import { buildPageMetadata } from "@/lib/pageMetadata";
+
+const NUMBER_LOCALES: Record<string, string> = {
+  ro: "ro-RO",
+  hu: "hu-HU",
+  en: "en-US",
+};
 
 export async function generateMetadata({
   params,
@@ -13,6 +19,11 @@ export async function generateMetadata({
 
 export default function WhyPage() {
   const t = useTranslations("why");
+  const locale = useLocale();
+  const numberFormat = new Intl.NumberFormat(
+    NUMBER_LOCALES[locale] ?? "ro-RO",
+    { maximumFractionDigits: 2 },
+  );
 
   const points = [1, 2, 3, 4, 5].map((n) => ({
     title: t(`point${n}Title`),
@@ -82,7 +93,7 @@ export default function WhyPage() {
                     {t(row.labelKey)}
                   </td>
                   <td className="px-6 py-3 text-right font-semibold text-brand-navy">
-                    {row.value} {row.unit}
+                    {numberFormat.format(row.value)} {row.unit}
                   </td>
                 </tr>
               ))}

@@ -13,6 +13,7 @@ import {
 } from "@/lib/products";
 import type { CartLineKey } from "@/lib/products";
 import { saveLastOrder } from "@/lib/lastOrder";
+import { formatRon } from "@/lib/format";
 
 const CUSTOMER_INFO_KEY = "amulet-customer-info";
 
@@ -104,7 +105,7 @@ export default function OrderPage() {
           address: form.address,
           notes: form.notes,
           lines: buildOrderLines(),
-          totalLabel: locale === "hu" ? "Összesen" : "Total",
+          totalLabel: c("total"),
           totalRon,
           subjectPrefix: `AMULET – ${t("title")}`,
           locale,
@@ -219,7 +220,7 @@ export default function OrderPage() {
                 })()}
               </span>
               <span className="shrink-0 font-medium text-brand-navy">
-                {(quantity * unitPrice).toFixed(2)} RON
+                {formatRon(quantity * unitPrice, locale)} RON
               </span>
             </div>
           );
@@ -320,11 +321,9 @@ export default function OrderPage() {
         </div>
 
         <div className="flex items-center justify-between border-t border-neutral-200 pt-4">
-          <span className="font-semibold text-brand-navy">
-            {locale === "hu" ? "Összesen" : "Total"}
-          </span>
+          <span className="font-semibold text-brand-navy">{c("total")}</span>
           <span className="text-xl font-bold text-brand-navy">
-            {totalRon.toFixed(2)} RON
+            {formatRon(totalRon, locale)} RON
           </span>
         </div>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import EmptyStateIcon from "@/components/EmptyStateIcon";
 import { useCart } from "@/context/CartContext";
@@ -13,10 +13,12 @@ import {
   FREE_DELIVERY_THRESHOLD_RON,
 } from "@/lib/products";
 import type { CartLineKey } from "@/lib/products";
+import { formatPlain, formatRon } from "@/lib/format";
 
 export default function CartPage() {
   const t = useTranslations("cart");
   const p = useTranslations("products");
+  const locale = useLocale();
   const { items, setQuantity, removeItem, totalRon } = useCart();
 
   const entries = Object.entries(items) as [CartLineKey, number][];
@@ -80,7 +82,7 @@ export default function CartPage() {
                       </p>
                     )}
                     <p className="text-sm text-neutral-600">
-                      {unitPrice.toFixed(2)} RON {p("perUnit")}
+                      {formatRon(unitPrice, locale)} RON {p("perUnit")}
                     </p>
                     {(() => {
                       const bd = getPackBreakdown(quantity, product.packSize);
@@ -144,7 +146,9 @@ export default function CartPage() {
             <p className="mt-3 text-center text-sm text-neutral-600">
               {remaining === 0
                 ? t("freeDeliveryReached")
-                : t("freeDeliveryProgress", { amount: remaining })}
+                : t("freeDeliveryProgress", {
+                    amount: formatPlain(remaining, locale),
+                  })}
             </p>
           </div>
 
@@ -153,7 +157,7 @@ export default function CartPage() {
               {t("total")}
             </span>
             <span className="text-2xl font-bold text-brand-navy">
-              {totalRon.toFixed(2)} RON
+              {formatRon(totalRon, locale)} RON
             </span>
           </div>
 

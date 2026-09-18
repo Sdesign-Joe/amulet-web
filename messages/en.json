@@ -1,0 +1,294 @@
+{
+  "nav": {
+    "home": "Home",
+    "why": "Why alkaline water?",
+    "products": "Products",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "My cart"
+  },
+  "home": {
+    "meta": {
+      "title": "AMULET - Natural Alkaline Water pH 8.2 | Salonta, Oradea, Arad",
+      "description": "AMULET natural alkaline mineral water, pH 8.2, lab-tested. Free delivery in Salonta, Oradea and Arad. Order online, pay on delivery."
+    },
+    "trustBadge": "Over 10 years alongside our customers",
+    "heroTitle": "Natural purity. Alkaline balance.",
+    "tagline": "Natural alkaline mineral water, pH 8.2",
+    "cta": "See the products",
+    "secondaryCta": "Why alkaline water?",
+    "usp1Title": "pH 8.2",
+    "usp1Text": "Natural alkaline balance, sourced from protected springs.",
+    "usp2Title": "100% natural",
+    "usp2Text": "No chemical processing, straight from nature into the bottle.",
+    "usp3Title": "Local delivery",
+    "usp3Text": "Fast delivery in Salonta, Oradea and Arad.",
+    "usp4Title": "Tested and certified",
+    "usp4Text": "Tested by Aqua Labor laboratory, RO/EU certified.",
+    "productsTitle": "Choose the right format",
+    "productsCta": "See all products",
+    "whyUsTitle": "Why choose AMULET?",
+    "whyUs1Title": "Delivered to your door",
+    "whyUs1Text": "No more carrying heavy bottles from the store — we bring the water straight to your home or office.",
+    "whyUs2Title": "Verified composition",
+    "whyUs2Text": "Not just promises — see the full lab analysis, with real numbers.",
+    "whyUs3Title": "Pay on delivery",
+    "whyUs3Text": "No online risk — you only pay in cash when you receive your order.",
+    "whyUs4Title": "Local business, 10+ years",
+    "whyUs4Text": "We know the area and our customers — we're not an anonymous warehouse.",
+    "howToOrderTitle": "How to order",
+    "step1Title": "Choose the product",
+    "step1Text": "1.5L bottles or a 19L container, by quantity or by the value you want.",
+    "step2Title": "Fill in your details",
+    "step2Text": "Name, phone and delivery address — takes less than a minute.",
+    "step3Title": "Pay on delivery",
+    "step3Text": "We confirm your order by phone and bring the water to your door.",
+    "b2bTitle": "For offices, schools and gyms",
+    "b2bText": "We offer recurring deliveries and larger quantities for businesses, institutions and public spaces. Contact us for a tailored delivery schedule.",
+    "b2bCta": "Request a quote"
+  },
+  "products": {
+    "meta": {
+      "title": "Products - AMULET Alkaline Water 1.5L and 19L Container",
+      "description": "Order AMULET alkaline water: 1.5L PET bottles or reusable 19L containers. Free delivery over 150 RON in Salonta, Oradea and Arad."
+    },
+    "title": "Our products",
+    "addToCart": "Add to cart",
+    "priceLabel": "Price",
+    "depositLabel": "SGR deposit",
+    "perUnit": "/ piece",
+    "packInfo": "Sold per piece. 6 bottles = 1 pack.",
+    "packUnitLabel": "pack",
+    "packBreakdownExact": "= {packs} pack(s)",
+    "packBreakdownMixed": "= {packs} pack(s) + {remainder} pc(s)",
+    "sgrNote": "The 0.5 RON/bottle deposit is the national SGR deposit and can be redeemed at any SGR collection point.",
+    "exchangeLabel": "I have an empty container to exchange",
+    "exchangePriceNote": "35 RON / piece",
+    "noExchangeLabel": "I don't have an empty container",
+    "noExchangePriceNote": "75 RON / piece",
+    "handleNotice": "The returnable container may be delivered with or without a handle, depending on stock. This cannot be chosen.",
+    "byQuantity": "By quantity",
+    "byValue": "By value",
+    "valueLabel": "Desired value (RON)",
+    "valuePreview": "≈ {qty} pc(s) · {total} RON",
+    "addByValue": "Add",
+    "items": {
+      "bottle-1-5l": {
+        "name": "1.5L PET bottle",
+        "description": "AMULET alkaline water in a recyclable, BPA-free 1.5L PET bottle, ideal for daily use at home or at the office. Sold per piece (6 bottles = 1 pack)."
+      },
+      "bottle-19l": {
+        "name": "19L reusable container",
+        "description": "Reusable 19L container, the eco-friendly solution for families, offices, schools and gyms."
+      }
+    }
+  },
+  "cart": {
+    "title": "My cart",
+    "empty": "Your cart is currently empty.",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "total": "Total",
+    "freeDeliveryReached": "Free home delivery included!",
+    "freeDeliveryProgress": "Add {amount} RON more of products for free delivery.",
+    "checkoutCta": "Continue to checkout",
+    "reorderTitle": "Order the same as last time?",
+    "reorderCta": "Add to cart"
+  },
+  "order": {
+    "title": "Complete your order",
+    "subtitle": "Fill in your details and we'll contact you to confirm. Payment is made on delivery.",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "city": "City",
+    "cityPlaceholder": "Choose your city",
+    "cities": {
+      "salonta": "Salonta",
+      "oradea": "Oradea",
+      "arad": "Arad"
+    },
+    "phoneInvalid": "Enter a valid phone number (e.g. 0741 597 436 or +40 741 597 436).",
+    "consentPrefix": "I have read and agree to the",
+    "consentTermsLabel": "Terms and Conditions",
+    "consentAnd": "and",
+    "consentPrivacyLabel": "Privacy Policy",
+    "address": "Delivery address",
+    "notes": "Notes (optional)",
+    "submit": "Send order",
+    "sending": "Sending...",
+    "sendError": "Sending the order failed. Try again or call us at +40 741 597 436.",
+    "successTitle": "Order sent!",
+    "successMessage": "Thank you! We'll contact you shortly to confirm your order.",
+    "deliveryInfoTitle": "Delivery schedule",
+    "deliveryInfo": "Free delivery for orders over 150 RON. Schedule: Salonta – Monday to Thursday, Oradea – Monday and Wednesday, Arad – Thursday."
+  },
+  "why": {
+    "meta": {
+      "title": "Why Alkaline Water? Benefits and Composition",
+      "description": "Find out why AMULET alkaline water (pH 8.2) is a healthy choice: lab-tested mineral composition, protected source, ISO 9001/14001 certifications."
+    },
+    "title": "Why alkaline water?",
+    "intro": "AMULET alkaline water comes from protected natural sources and has a pH of 8.2, above the level of ordinary tap water or most bottled waters.",
+    "point1Title": "Natural balance",
+    "point1Text": "An alkaline pH (above 7) helps balance the acidity common in modern diets.",
+    "point2Title": "Rich in minerals",
+    "point2Text": "Contains bicarbonate, calcium, sodium and magnesium in natural proportions, with no artificial additives.",
+    "point3Title": "Superior hydration",
+    "point3Text": "The molecular structure of alkaline water may support more efficient hydration throughout the day.",
+    "point4Title": "Protected source",
+    "point4Text": "Natural alkaline mineral water from the B-128 spring, Mezőkovácsháza, carefully captured and bottled to preserve the water's natural purity.",
+    "point5Title": "Tested and certified quality",
+    "point5Text": "AMULET water is tested by the accredited Aqua Labor laboratory (Hungary) and produced in accordance with the ISO 9001 (quality management) and ISO 14001 (environmental management) standards. The packaging is BPA-free, and the 1.5L bottles contain 30% recycled material.",
+    "compositionTitle": "Mineral composition",
+    "compositionSource": "Lab analysis by the accredited Aqua Labor laboratory (Hungary), at the B-128 spring, Mezőkovácsháza.",
+    "phLabel": "pH (measured value)",
+    "residueLabel": "Dry residue",
+    "bicarbonateLabel": "Bicarbonate (HCO₃⁻)",
+    "sodiumLabel": "Sodium (Na⁺)",
+    "calciumLabel": "Calcium (Ca²⁺)",
+    "magnesiumLabel": "Magnesium (Mg²⁺)",
+    "totalLabel": "Total dissolved minerals",
+    "disclaimer": "The information above is general in nature and does not replace medical advice. For personalized recommendations, consult a specialist."
+  },
+  "faq": {
+    "meta": {
+      "title": "Frequently Asked Questions about AMULET Alkaline Water",
+      "description": "Answers about delivery, the SGR deposit, the 19L container and paying for AMULET orders."
+    },
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What is the minimum amount for free delivery?",
+        "answer": "Home delivery is free for orders over 150 RON. Below that amount, we'll contact you to arrange delivery."
+      },
+      {
+        "question": "Which days do you deliver?",
+        "answer": "We deliver in Salonta and the surrounding area (approx. 50 km radius) Monday to Thursday, in Oradea on Monday and Wednesday, and in Arad on Thursday."
+      },
+      {
+        "question": "What is the 0.5 RON deposit on the 1.5L bottles?",
+        "answer": "It's the national SGR (Deposit-Return System) deposit, mandatory nationwide for PET packaging. It can be redeemed at any SGR collection point in the country, not just from us."
+      },
+      {
+        "question": "What quantity are the 1.5L bottles sold in?",
+        "answer": "The 1.5L bottles are sold individually. For reference, 6 bottles make up one pack — at checkout we automatically show you the pack equivalent."
+      },
+      {
+        "question": "Is the 19L container returnable?",
+        "answer": "Yes, the 19L containers are reusable. The 35 RON price applies when you hand over an empty container at delivery; without an exchange container, the price is 75 RON."
+      },
+      {
+        "question": "Does the 19L container have a handle?",
+        "answer": "The delivered container may have a handle or not, depending on available stock. This variant cannot be chosen by the customer."
+      },
+      {
+        "question": "How do I pay for my order?",
+        "answer": "Payment is made on delivery, in cash or as arranged by phone. We do not currently process online payments on the site."
+      },
+      {
+        "question": "Can I order for a company, office or school?",
+        "answer": "Yes, we offer recurring deliveries for offices, schools and gyms. Contact us for a tailored offer."
+      }
+    ]
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact AMULET - Alkaline Water Salonta",
+      "description": "Contact AMULET for orders and deliveries of alkaline water in Salonta, Oradea and Arad. Phone, email and delivery schedule."
+    },
+    "title": "Contact",
+    "intro": "Have a question or want to set up a recurring delivery? We're here to help.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "locationLabel": "Warehouse",
+    "hoursLabel": "Warehouse hours",
+    "hoursText": "Monday – Friday, 8:00 AM – 4:30 PM",
+    "deliveryTitle": "Delivery zones and schedule",
+    "deliveryText": "Delivery schedule: Salonta and surrounding area (approx. 50 km radius) – Monday to Thursday · Oradea – Monday and Wednesday · Arad – Thursday. Free delivery for orders over 150 RON.",
+    "whatsappLabel": "WhatsApp",
+    "whatsappCta": "Message us on WhatsApp",
+    "whatsappMessage": "Hello! I'd like some information about AMULET alkaline water."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "It looks like this page doesn't exist (anymore). Check the link or continue browsing below.",
+    "homeCta": "Back to homepage",
+    "productsCta": "See the products"
+  },
+  "footer": {
+    "companyName": "Birta Impex SRL",
+    "companyLocation": "Salonta, Romania",
+    "companyAddress": "Str. Mărășești nr. 7, Salonta, Bihor County",
+    "trustNote": "Over 10 years alongside our customers.",
+    "rights": "All rights reserved.",
+    "deliveryNote": "Free delivery over 150 RON · Salonta, Oradea and Arad",
+    "legalLinks": {
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy",
+      "cookies": "Cookies"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms and Conditions",
+      "description": "The terms and conditions for using the amulet.ro website and placing orders, operated by Birta Impex SRL."
+    },
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: September 17, 2026",
+    "intro": "These terms and conditions govern the use of the amulet.ro website and orders placed through it, operated by Birta Impex SRL.",
+    "sections": [
+      { "title": "1. Merchant identification", "body": "Birta Impex SRL, registered office at Piața Transilvaniei nr. 7, 415500 Salonta, Bihor County, Romania, registered with the Trade Registry under no. J2015000863054, tax ID (CUI) 34585600, hereinafter referred to as the \"Merchant\" or \"AMULET\"." },
+      { "title": "2. Products and prices", "body": "The products presented on the site (AMULET alkaline water in 1.5L bottles and 19L containers) are for informational purposes. Prices are shown in RON and may change without prior notice; the price confirmed at order confirmation is the one that applies." },
+      { "title": "3. Placing an order", "body": "An order is placed by completing the form on the site with contact and delivery details. The Merchant confirms the order by phone or email before delivery." },
+      { "title": "4. Delivery", "body": "Delivery is carried out in the Salonta area (Monday–Thursday), Oradea (Monday and Wednesday) and Arad (Thursday), within approximately 50 km. Delivery is free for orders over 150 RON; below that amount, delivery terms are arranged by phone." },
+      { "title": "5. Payment", "body": "Payment is made on delivery, in cash or as agreed with the Merchant. The website does not process online payments." },
+      { "title": "6. The 19L container and the SGR deposit", "body": "The 19L container can be delivered at a reduced price (35 RON) in exchange for an equivalent empty container, or at full price (75 RON) without an exchange. The 1.5L bottles include the SGR deposit (0.5 RON/bottle), redeemable at any SGR collection point nationwide." },
+      { "title": "7. Right of withdrawal", "body": "Under Romanian Government Emergency Ordinance no. 34/2014, the consumer has the right to withdraw from the contract within 14 days of delivery, without needing to justify the decision. This right does not apply to products already consumed or unsealed for hygiene reasons. To exercise the right of withdrawal, please contact us using the details below." },
+      { "title": "8. Product conformity", "body": "The Merchant is responsible for the conformity of delivered products in accordance with applicable law. Any non-conformity should be reported to the Merchant as soon as possible after discovery." },
+      { "title": "9. Limitation of liability", "body": "The Merchant makes reasonable efforts to keep the information on the site accurate, but is not liable for technical errors or interruptions to the website's operation." },
+      { "title": "10. Intellectual property", "body": "The content of the website (text, images, the AMULET logo) is the property of the Merchant and may not be reproduced without its written consent." },
+      { "title": "11. Personal data protection", "body": "The processing of personal data is described in the Privacy Policy, an integral part of these terms." },
+      { "title": "12. Dispute resolution", "body": "Complaints may be addressed directly to the Merchant. Consumers may also contact the National Authority for Consumer Protection (ANPC, www.anpc.ro, toll-free line 0800 080 999) or the EU's online dispute resolution platform: ec.europa.eu/consumers/odr." },
+      { "title": "13. Applicable law", "body": "These terms and conditions are governed by Romanian law." },
+      { "title": "14. Contact", "body": "For any question regarding these terms: info@birtaimpex.ro or +40 741 597 436." }
+    ]
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "How Birta Impex SRL collects and protects your personal data on the amulet.ro website, in accordance with GDPR."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: September 17, 2026",
+    "intro": "This policy explains what personal data we collect through the amulet.ro website, for what purpose, and what your rights are under Regulation (EU) 2016/679 (GDPR).",
+    "sections": [
+      { "title": "1. Data controller", "body": "The personal data controller is Birta Impex SRL, registered office at Piața Transilvaniei nr. 7, 415500 Salonta, Bihor County, tax ID (CUI) 34585600, Trade Registry no. J2015000863054, contact: info@birtaimpex.ro." },
+      { "title": "2. What data we collect", "body": "Through the order form we collect: name, phone, email (optional), city, delivery address and optional notes. The servers hosting the site may automatically log technical data (IP address, browser type)." },
+      { "title": "3. Purpose of processing", "body": "The data is used exclusively to process and deliver your order, to communicate with you about your order, and, where applicable, to meet accounting/tax obligations." },
+      { "title": "4. Legal basis", "body": "Processing is based on the performance of a contract (processing your order) and, where relevant, on the Merchant's legitimate interest in responding to inquiries received." },
+      { "title": "5. Who we share data with", "body": "Order data is transmitted through the Resend email service, used solely to deliver the message to the Merchant. We do not sell or rent your data to third parties for marketing purposes." },
+      { "title": "6. Retention period", "body": "Order-related data is kept for as long as necessary to process the order and, where applicable, for the period required by accounting and tax legislation (typically 5–10 years for financial documents)." },
+      { "title": "7. Your rights", "body": "You have the right to access, rectify, erase, restrict, object to processing and to data portability, as well as the right to lodge a complaint with the National Supervisory Authority for Personal Data Processing (ANSPDCP, www.dataprotection.ro)." },
+      { "title": "8. Security", "body": "We take reasonable technical and organizational measures to protect your data against unauthorized access, loss or misuse." },
+      { "title": "9. Contact", "body": "For any request regarding your personal data, you can contact us at info@birtaimpex.ro or +40 741 597 436." },
+      { "title": "10. Changes", "body": "This policy may be updated periodically; the current version is always available on this page." }
+    ]
+  },
+  "cookiePolicy": {
+    "meta": {
+      "title": "Cookie Policy",
+      "description": "Information about the local storage and visitor analytics used on the amulet.ro website - no tracking or advertising cookies."
+    },
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: September 17, 2026",
+    "intro": "This page explains what data is stored in your browser when you visit the amulet.ro website.",
+    "sections": [
+      { "title": "1. What we use", "body": "Our website does NOT use advertising or marketing tracking cookies. We only use strictly necessary local storage (localStorage) and a cookie-free analytics tool, described below." },
+      { "title": "2. Visitor analytics (Vercel Analytics)", "body": "We use Vercel Analytics to understand how many visitors the website has and which pages are most popular. This tool does not use cookies and does not collect personal data or identifiers that would track you across other sites." },
+      { "title": "3. What local storage is used for", "body": "Shopping cart: remembers the products added to your cart between visits, for your convenience. Order data: if you complete an order, the name, phone, email, city and address you entered are stored locally so you don't have to re-enter them next time." },
+      { "title": "4. How to delete this data", "body": "You can delete this data at any time from your browser settings (the option to clear site data), or by browsing in a private/incognito window." },
+      { "title": "5. Future updates", "body": "If we introduce marketing or advertising tools in the future that require cookies, this page will be updated and, where required, we will ask for your explicit consent." }
+    ]
+  }
+}

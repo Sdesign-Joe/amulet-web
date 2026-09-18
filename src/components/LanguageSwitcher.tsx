@@ -7,6 +7,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 const LABELS: Record<string, string> = {
   ro: "RO",
   hu: "HU",
+  en: "EN",
 };
 
 export default function LanguageSwitcher() {

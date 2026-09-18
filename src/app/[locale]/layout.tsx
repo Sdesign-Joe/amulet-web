@@ -53,7 +53,8 @@ export async function generateMetadata({
     openGraph: {
       siteName: "AMULET",
       type: "website",
-      locale: locale === "hu" ? "hu_HU" : "ro_RO",
+      locale:
+        locale === "hu" ? "hu_HU" : locale === "en" ? "en_US" : "ro_RO",
       images: [`${SITE_URL}/images/logo.png`],
     },
     robots: {

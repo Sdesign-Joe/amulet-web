@@ -2,13 +2,15 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import type { CartLineKey, Product } from "@/lib/products";
 import { getPackBreakdown, getUnitPriceForCartLine } from "@/lib/products";
 import { useCart } from "@/context/CartContext";
+import { formatPlain, formatRon } from "@/lib/format";
 
 export default function ProductCard({ product }: { product: Product }) {
   const t = useTranslations("products");
+  const locale = useLocale();
   const { addItem } = useCart();
 
   const isBallon = product.id === "bottle-19l";
@@ -95,14 +97,15 @@ export default function ProductCard({ product }: { product: Product }) {
         <div className="mt-4 flex flex-col items-center gap-1">
           <div className="flex flex-wrap items-baseline justify-center gap-x-2 gap-y-1">
             <span className="whitespace-nowrap text-2xl font-bold text-brand-navy">
-              {product.priceRon} RON
+              {formatPlain(product.priceRon, locale)} RON
             </span>
             <span className="whitespace-nowrap text-sm text-neutral-600">
               {t("perUnit")}
             </span>
             {product.depositRon > 0 && (
               <span className="whitespace-nowrap text-xs text-neutral-600">
-                + {product.depositRon} RON ({t("depositLabel")})
+                + {formatPlain(product.depositRon, locale)} RON (
+                {t("depositLabel")})
               </span>
             )}
           </div>
@@ -162,7 +165,7 @@ export default function ProductCard({ product }: { product: Product }) {
               <p>
                 {t("valuePreview", {
                   qty: valuePreview.qty,
-                  total: valuePreview.total.toFixed(2),
+                  total: formatRon(valuePreview.total, locale),
                 })}
               </p>
               {(() => {
