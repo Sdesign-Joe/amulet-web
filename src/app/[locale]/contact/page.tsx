@@ -34,6 +34,7 @@ const EMAIL_PATH =
   "M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75";
 const DEPOT_PATH =
   "M2.25 21h19.5M4.5 3h15l1.5 5.25H3L4.5 3ZM3 8.25v12h18v-12M9 21v-6a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 15v6";
+const WHATSAPP_NUMBER = "40741597436";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
@@ -48,7 +49,7 @@ export default function ContactPage() {
         {t("intro")}
       </p>
 
-      <div className="mt-12 grid gap-6 sm:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-2xl border border-neutral-100 bg-white p-6 text-center shadow-sm">
           <ContactIcon path={PHONE_PATH} />
           <p className="mt-3 text-sm font-medium text-neutral-600">
@@ -71,6 +72,30 @@ export default function ContactPage() {
             className="mt-1 block text-lg font-semibold text-brand-navy hover:text-brand-blue-deep"
           >
             amulet@amulet.ro
+          </a>
+        </div>
+        <div className="rounded-2xl border border-neutral-100 bg-white p-6 text-center shadow-sm">
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]/10 text-[#25D366]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="h-5 w-5"
+              aria-hidden="true"
+            >
+              <path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.76.46 3.48 1.34 5L2 22l5.14-1.35a9.96 9.96 0 0 0 4.9 1.28h.01c5.52 0 10-4.48 10-10s-4.48-9.93-10.01-9.93Zm.01 18.15h-.01c-1.53 0-3.03-.41-4.34-1.19l-.31-.18-3.05.8.82-2.97-.2-.31a8.13 8.13 0 0 1-1.25-4.3c0-4.5 3.66-8.16 8.17-8.16 2.18 0 4.23.85 5.77 2.4a8.1 8.1 0 0 1 2.39 5.77c0 4.5-3.67 8.14-8.17 8.14Zm4.48-6.11c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.78.97-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.35-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.68 2.57 4.08 3.6.57.25 1.02.4 1.37.5.57.18 1.09.16 1.5.1.46-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z" />
+            </svg>
+          </div>
+          <p className="mt-3 text-sm font-medium text-neutral-600">
+            {t("whatsappLabel")}
+          </p>
+          <a
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(t("whatsappMessage"))}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-1 block text-lg font-semibold text-brand-navy hover:text-brand-blue-deep"
+          >
+            {t("whatsappCta")}
           </a>
         </div>
         <div className="rounded-2xl border border-neutral-100 bg-white p-6 text-center shadow-sm">

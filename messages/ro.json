@@ -205,7 +205,10 @@
     "hoursLabel": "Program depozit",
     "hoursText": "Luni – Vineri, 8:00 – 16:30",
     "deliveryTitle": "Zone și program de livrare",
-    "deliveryText": "Program de livrare: Salonta și împrejurimi (rază de aprox. 50 km) – Luni până Joi · Oradea – Luni și Miercuri · Arad – Joi. Livrare gratuită pentru comenzi de peste 150 RON."
+    "deliveryText": "Program de livrare: Salonta și împrejurimi (rază de aprox. 50 km) – Luni până Joi · Oradea – Luni și Miercuri · Arad – Joi. Livrare gratuită pentru comenzi de peste 150 RON.",
+    "whatsappLabel": "WhatsApp",
+    "whatsappCta": "Scrie-ne pe WhatsApp",
+    "whatsappMessage": "Bună ziua! Aș dori informații despre apa alcalină AMULET."
   },
   "notFound": {
     "title": "Pagina nu a fost găsită",

@@ -205,7 +205,10 @@
     "hoursLabel": "Raktár nyitvatartása",
     "hoursText": "Hétfő – Péntek, 8:00 – 16:30",
     "deliveryTitle": "Szállítási körzetek és rend",
-    "deliveryText": "Szállítási rend: Nagyszalonta és környéke (kb. 50 km sugarú körzet) – Hétfőtől Csütörtökig · Nagyvárad – Hétfő és Szerda · Arad – Csütörtök. Ingyenes szállítás 150 RON feletti rendelés esetén."
+    "deliveryText": "Szállítási rend: Nagyszalonta és környéke (kb. 50 km sugarú körzet) – Hétfőtől Csütörtökig · Nagyvárad – Hétfő és Szerda · Arad – Csütörtök. Ingyenes szállítás 150 RON feletti rendelés esetén.",
+    "whatsappLabel": "WhatsApp",
+    "whatsappCta": "Írj nekünk WhatsAppon",
+    "whatsappMessage": "Jó napot! Szeretnék információt kérni az AMULET lúgos ásványvízről."
   },
   "notFound": {
     "title": "Az oldal nem található",
